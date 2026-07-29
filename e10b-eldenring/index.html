@@ -242,6 +242,12 @@ body::after{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;
 .segment::before{content:'⚜';color:rgba(202,138,4,0.20);position:absolute;left:-24px;top:2px;font-size:15px;}
 .segment{position:relative;}
 .source-card:hover{border-color:rgba(202,138,4,0.5);box-shadow:0 0 20px rgba(202,138,4,0.12);}
+
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
 </style>
 </head>
 <body>
@@ -316,7 +322,13 @@ body::after{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;
   <text x="80" y="198" text-anchor="middle" fill="#ca8a04" font-size="7" opacity="0.7" font-family="serif">ELDEN RING</text>
 </svg>
 </div>
-<style>@keyframes heroDeco{0%{opacity:0.09;transform:scale(0.96) rotate(-2deg);}100%{opacity:0.19;transform:scale(1.04) rotate(2deg);}}</style>
+<style>@keyframes heroDeco{0%{opacity:0.09;transform:scale(0.96) rotate(-2deg);}100%{opacity:0.19;transform:scale(1.04) rotate(2deg);}}
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
+</style>
 <div class="hero-glow"></div>
 <div class="erdtree-seal">
 <svg width="180" height="220" viewBox="0 0 180 220" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -387,19 +399,19 @@ body::after{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;
 <div class="ctx-grid">
 <div class="ctx-card">
 <h4>📻 RADIO MX (2022)</h4>
-<ul class="radio-list"><li>Peso Pluma — 'El Belicón' ft. Raul Vega (Ah y Qué, 2022)</li><li>Junior H — 'Mi Bello Ángel' (Del Rancho 4, 2022)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/watch?v=NAVzjKNa6ro" target="_blank">Peso Pluma — 'El Belicón' ft. Raul Vega (Ah y Qué, 2022)</a></li><li><a href="https://www.youtube.com/results?search_query=Junior+H++++Mi+Bello+%C3%81ngel+official+video" target="_blank">Junior H — 'Mi Bello Ángel' (Del Rancho 4, 2022)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>🌍 RADIO MUNDIAL (2022)</h4>
-<ul class="radio-list"><li>Harry Styles — 'As It Was' (Harry's House, 2022)</li><li>Bad Bunny — 'Me Porto Bonito' ft. Chencho Corleone (Un Verano Sin Ti, 2022)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/watch?v=H5v3kku4y6Q" target="_blank">Harry Styles — 'As It Was' (Harry's House, 2022)</a></li><li><a href="https://www.youtube.com/watch?v=saGYMhApaH8" target="_blank">Bad Bunny — 'Me Porto Bonito' ft. Chencho Corleone (Un Verano Sin Ti, 2022)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>📺 TV / CULTURA (2022)</h4>
-<p>HBO Max con <em>The Last of Us</em> (anuncio); streaming total.</p>
+<p>HBO Max con <a href="https://www.youtube.com/results?search_query=The+Last+of+Us+trailer" target="_blank"><em>The Last of Us</em></a> (anuncio); streaming total.</p>
 </div>
 <div class="ctx-card">
 <h4>EN PUEBLA (CIUDAD DE ALEX)</h4>
-<ul class="ctx-city"><li>2022: Puebla inaugura el nuevo Museo Barroco en la zona histórica UNESCO.</li><li>Elden Ring: el juego más buscado en Steam México en su semana de lanzamiento.</li><li>Primer torneo presencial de Elden Ring (PvP) en el Angelópolis.</li></ul>
+<ul class="ctx-city"><li><a href="https://es.wikipedia.org/wiki/Museo_Internacional_del_Barroco" target="_blank">El Museo Internacional del Barroco (inaugurado en 2016) se consolidaba como ícono cultural de Puebla.</a></li><li><a href="https://es.wikipedia.org/wiki/Elden_Ring" target="_blank">Elden Ring rompió récords de ventas en Steam en su semana de estreno a nivel mundial.</a></li><li><a href="https://es.wikipedia.org/wiki/FromSoftware" target="_blank">La comunidad Souls de Puebla crecía con quedadas y torneos PvP locales.</a></li></ul>
 </div>
 </div>
 <div class="sub"><h4>PREGUNTA ANCLA (SE RETOMA EN CIERRE)</h4><ul><li><em>"¿Es Elden Ring el videojuego más importante de la década, o simplemente el más grande en escala que ha hecho FromSoftware hasta ahora?"</em></li></ul></div>
@@ -417,6 +429,7 @@ body::after{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;
 
 <section class="segment" id="s3">
 <div class="segment-head"><div class="segment-num">03</div><div class="segment-titles"><h3>EL CORAZÓN DEL JUEGO</h3><div class="duration">25 – 35 MIN</div></div></div>
+<div class="prologue"><span class="p-tag">▸ PRÓLOGO — LA HISTORIA COMPLETA: EL ANILLO FRACTURADO</span><h5>La Fractura</h5><p>En las Tierras Intermedias gobernaba el orden dorado de la Reina Marika, sostenido por el <a href="https://es.wikipedia.org/wiki/Elden_Ring" target="_blank">Elden Ring</a> y el Árbol Áureo. Hasta que Marika lo hizo añicos. Sus hijos semidioses se repartieron los fragmentos — las Grandes Runas — y se destrozaron entre sí en la Guerra de la Fractura, sin que ninguno pudiera coronarse.</p><p>El resultado es un mundo magníficamente roto: Godrick el Injertado en Limgrave, Rennala en la academia lunar de Raya Lucaria, el general Radahn deteniendo las estrellas, Rykard fundido con una serpiente, Morgott custodiando la capital, Malenia — la espada de Miquella — pudriendo Caelid entero.</p><h5>El Sinluz</h5><p>A ese caos regresa el jugador: un Sinluz, descendiente de los exiliados sin gracia, convocado de vuelta porque la gracia dorada volvió a señalar un camino. La doncella Melina ofrece el pacto: llevarlo al pie del Árbol Áureo a cambio de un propósito que ella misma guarda.</p><p>Torrentera, el corcel espectral, abre el mapa más celebrado de la década: catacumbas, mazmorras, dragones sobre castillos en ruinas y la eterna tentación de &lsquo;ir a ver qué hay allá&rsquo;, con las tablas de FromSoftware y la pluma de George R. R. Martin en la mitología.</p><h5>El árbol que no arde</h5><p>Reunidas dos Grandes Runas, Leyndell abre sus puertas doradas... para revelar que el Árbol Áureo está sellado con espinas. La única llave es la Llama Frenética o el sacrificio: Melina entrega su vida en la Cima de los Gigantes para encender la pira.</p><p>Con el árbol en llamas, la Bestia Clérigo Maliketh custodia en Farum Azula la Runa de la Muerte — matar a la muerte misma para poder matar dioses. Al regresar, la capital es ceniza y Morgott ya no basta: su hermano Godfrey, primer Señor del Círculo, reclama su duelo de despedida.</p><h5>Radagon y los finales</h5><p>Bajo el Árbol espera la revelación final: Radagon, el consorte de Marika, es Marika — dos mitades de un mismo dios roto martillando el anillo. Tras su caída emerge la Bestia del Círculo, la voluntad estelar del orden mismo.</p><p>El trono queda vacío y las manos del Sinluz deciden: restaurar el orden como Señor del Círculo en sus variantes, entregar el mundo a la noche de Ranni en la Era de las Estrellas, o abrazar la Llama Frenética y quemarlo todo. En 2022, el mundo entero comparó notas: nadie jugó el mismo Elden Ring, y todos jugaron el mejor juego del año.</p></div>
 <div class="sub"><h4>3.1 DISEÑO Y MECÁNICAS (8-10 min)</h4><ul>
 <li>¿Qué hace único al diseño de ELDEN RING respecto a su época y género?</li>
 <li>¿Sus mecánicas centrales envejecieron bien o muestran su edad?</li>
@@ -490,7 +503,7 @@ body::after{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;
 <span class="kind">WALKTHROUGH SIN COMENTARIOS</span>
 <div class="title">Elden Ring — Full Longplay No Commentary (All Main Bosses)</div>
 <p>Recorrido completo en PC/PS5 con todos los jefes principales sin comentarios.</p>
-<p><a href="https://www.youtube.com/results?search_query=elden+ring+longplay+no+commentary+all+main+bosses+full+game" target="_blank">https://www.youtube.com/results?search_query=elden+ring+longplay+no+commentary+all+main+bosses+full+game</a></p>
+<p><a href="https://www.youtube.com/watch?v=78wfjmByVY8" target="_blank">https://www.youtube.com/watch?v=78wfjmByVY8</a></p>
 </div></div>
 <div class="source-card"><span class="icon">🎙️</span><div class="body">
 <span class="kind">ENTREVISTA / FUENTE CON LOS DESARROLLADORES</span>

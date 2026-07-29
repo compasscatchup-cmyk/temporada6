@@ -124,6 +124,12 @@ footer p{font-size:12px;color:var(--dim);}
 .segment::before{content:'🦕';position:absolute;left:-28px;top:0;font-size:13px;opacity:0.25;}
 .segment{position:relative;}
 .source-card:hover{border-color:rgba(245,166,35,0.45);box-shadow:0 0 18px rgba(245,166,35,0.10);}
+
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
 </style>
 </head>
 <body>
@@ -160,7 +166,13 @@ footer p{font-size:12px;color:var(--dim);}
   <path d="M46 65 Q50 58 52 52" stroke="#f5a623" stroke-width="2" fill="none" opacity="0.5"/>
 </svg>
 </div>
-<style>@keyframes heroDeco{0%{opacity:0.09;transform:translateX(-4px);}100%{opacity:0.18;transform:translateX(4px);}}</style>
+<style>@keyframes heroDeco{0%{opacity:0.09;transform:translateX(-4px);}100%{opacity:0.18;transform:translateX(4px);}}
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
+</style>
 <div class="hero-content">
 <div class="logo-row"><img class="logo-mark" id="lm" alt="CC"><span class="logo-text">COMPASS CATCHUP // <span class="logo-ep">T6 A-SIDE</span></span></div>
 <h1>CADILLACS AND DINOSAURS // 1992</h1>
@@ -203,19 +215,19 @@ footer p{font-size:12px;color:var(--dim);}
 <div class="ctx-grid">
 <div class="ctx-card">
 <h4>📻 RADIO MX (1992)</h4>
-<ul class="radio-list"><li>Bronco — 'Que No Quede Huella' (Que No Quede Huella, 1992)</li><li>Gloria Trevi — 'Dr. Psiquiatra' (Tu Ángel de la Guarda, 1991–replay 1992)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/results?search_query=Bronco++++Que+No+Quede+Huella+official+video" target="_blank">Bronco — 'Que No Quede Huella' (Que No Quede Huella, 1992)</a></li><li><a href="https://www.youtube.com/results?search_query=Gloria+Trevi++++Dr.+Psiquiatra+official+video" target="_blank">Gloria Trevi — 'Dr. Psiquiatra' (Tu Ángel de la Guarda, 1991–replay 1992)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>🌍 RADIO MUNDIAL (1992)</h4>
-<ul class="radio-list"><li>Michael Jackson — 'Black or White' (Dangerous, 1991–replay 1992)</li><li>Boyz II Men — 'End of the Road' (Boomerang OST, 1992)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/watch?v=F2AitTPI5U0" target="_blank">Michael Jackson — 'Black or White' (Dangerous, 1991–replay 1992)</a></li><li><a href="https://www.youtube.com/watch?v=zDKO6XYXioc" target="_blank">Boyz II Men — 'End of the Road' (Boomerang OST, 1992)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>📺 TV / CULTURA (1992)</h4>
-<p>Canal 7 con <em>Dragon Ball Z</em> doblada; boom de telenovelas vespertinas.</p>
+<p>Canal 7 con <a href="https://www.youtube.com/results?search_query=Dragon+Ball+Z+trailer" target="_blank"><em>Dragon Ball Z</em></a> doblada; boom de telenovelas vespertinas.</p>
 </div>
 <div class="ctx-card">
 <h4>EN CULIACÁN (CIUDAD DE LUIS ENRIQUE)</h4>
-<ul class="ctx-city"><li>1992: Inauguración del Centro Comercial Tres Ríos.</li><li>Primer McDonald's en Culiacán; modernización del Mercado Garmendia.</li><li>Los salones de arcade en el centro histórico en su época de oro.</li></ul>
+<ul class="ctx-city"><li><a href="https://es.wikipedia.org/wiki/Desarrollo_Urbano_Tres_R%C3%ADos" target="_blank">El desarrollo urbano Tres Ríos transformaba la zona norte de Culiacán.</a></li><li><a href="https://es.wikipedia.org/wiki/Culiac%C3%A1n" target="_blank">Expansión de cadenas de comida rápida y modernización del Mercado Garmendia.</a></li><li><a href="https://es.wikipedia.org/wiki/M%C3%A1quina_recreativa" target="_blank">Los salones de arcade en el centro histórico en su época de oro.</a></li></ul>
 </div>
 </div>
 <div class="sub"><h4>PREGUNTA ANCLA (SE RETOMA EN CIERRE)</h4><ul><li><em>"¿Qué convierte a un arcade de barrio en un lugar de culto y no solo en una máquina de fichas?"</em></li></ul></div>
@@ -230,15 +242,15 @@ footer p{font-size:12px;color:var(--dim);}
   <ul style="margin-top:10px;list-style:none;padding-left:8px;display:flex;flex-direction:column;gap:8px;">
     <li style="padding-left:16px;position:relative;font-size:13px;color:var(--dim);">
       <span style="position:absolute;left:0;color:#f5a623;">📖</span>
-      <strong style="color:var(--text);">1987</strong> — Mark Schultz publica <em>Xenozoic Tales</em> #1 (Kitchen Sink Press). El cómic presenta a Jack Tenrec y Hannah Dundee en un mundo post-apocalíptico donde los dinosaurios dominan la Tierra. Se publicó también en edición a color bajo el título <em>Cadillacs and Dinosaurs</em> por Marvel Comics en 1994.
+      <strong style="color:var(--text);">1987</strong> — Mark Schultz publica <a href="https://es.wikipedia.org/wiki/Xenozoic_Tales" target="_blank"><em>Xenozoic Tales</em></a> #1 (Kitchen Sink Press). El cómic presenta a Jack Tenrec y Hannah Dundee en un mundo post-apocalíptico donde los dinosaurios dominan la Tierra. Se publicó también en edición a color bajo el título <em>Cadillacs and Dinosaurs</em> por Marvel Comics en 1994.
     </li>
     <li style="padding-left:16px;position:relative;font-size:13px;color:var(--dim);">
       <span style="position:absolute;left:0;color:#f5a623;">📺</span>
-      <strong style="color:var(--text);">1993</strong> — Se estrena la serie animada <em>Cadillacs and Dinosaurs</em> (CBS), producida por Nelvana y Marvel. 13 episodios. Es la adaptación más popular en México gracias a sus transmisiones en Canal 5 y Canal 7.
+      <strong style="color:var(--text);">1993</strong> — Se estrena la serie animada <a href="https://www.youtube.com/results?search_query=Cadillacs+and+Dinosaurs+cartoon+intro+1993" target="_blank"><em>Cadillacs and Dinosaurs</em></a> (CBS), producida por Nelvana y Marvel. 13 episodios. Es la adaptación más popular en México gracias a sus transmisiones en Canal 5 y Canal 7.
     </li>
     <li style="padding-left:16px;position:relative;font-size:13px;color:var(--dim);">
       <span style="position:absolute;left:0;color:#f5a623;">🎮</span>
-      <strong style="color:var(--text);">1992–1993</strong> — Capcom lanza el arcade <em>Cadillacs and Dinosaurs</em> (CPS-Dash), basado directamente en la serie animada. En muchos mercados como México, el videojuego y la serie llegaron casi al mismo tiempo, lo que hace difícil saber qué conociste primero.
+      <strong style="color:var(--text);">1992–1993</strong> — Capcom lanza el arcade <a href="https://es.wikipedia.org/wiki/Cadillacs_and_Dinosaurs_(video_game)" target="_blank"><em>Cadillacs and Dinosaurs</em></a> (CPS-Dash), basado directamente en la serie animada. En muchos mercados como México, el videojuego y la serie llegaron casi al mismo tiempo, lo que hace difícil saber qué conociste primero.
     </li>
   </ul>
 </li>
@@ -249,6 +261,7 @@ footer p{font-size:12px;color:var(--dim);}
 
 <section class="segment" id="s3">
 <div class="segment-head"><div class="segment-num">03</div><div class="segment-titles"><h3>EL CORAZÓN DEL JUEGO</h3><div class="duration">25 – 35 MIN</div></div></div>
+<div class="prologue"><span class="p-tag">▸ PRÓLOGO — LA HISTORIA COMPLETA: EL MUNDO XENOZOICO</span><h5>La Tierra después del cataclismo</h5><p>Siglo XXVI. Hace cuatrocientos años, una catástrofe geológica y climática obligó a la humanidad a refugiarse bajo tierra. Al volver a la superficie, encontró un planeta transformado: los dinosaurios habían regresado para reclamar la Tierra. Este es el mundo de <a href="https://es.wikipedia.org/wiki/Xenozoic_Tales" target="_blank">Xenozoic Tales</a>, la era Xenozoica, donde humanos y saurios conviven en un equilibrio frágil.</p><p>En la Ciudad del Mar, el mecánico Jack Tenrec — guardián del viejo conocimiento y restaurador de Cadillacs adaptados con motores de alcohol — defiende ese equilibrio junto a Hannah Dundee, embajadora y científica, y sus aliados Mustapha Cairo y Mess O&rsquo;Bradovich.</p><h5>La amenaza de los cazadores</h5><p>Una banda de cazadores furtivos comandada por el despiadado Butcher masacra dinosaurios y provoca que las bestias, enfurecidas, ataquen los asentamientos humanos. Detrás de ellos opera una mente mayor: el Dr. Simon Fessenden, un científico que experimenta con los saurios para crear híbridos monstruosos.</p><p>Jack, Hannah, Mustapha y Mess salen a las calles, pantanos y selvas a repartir justicia a puño limpio, en el beat &rsquo;em up con el que Capcom convirtió el cómic de Mark Schultz en leyenda de las arcades.</p><h5>Ocho etapas de acción</h5><p>El recorrido va del pueblo asaltado a la jungla, del pantano infestado a la persecución en Cadillac por el desfiladero — con los jugadores atropellando enemigos en uno de los niveles de manejo más celebrados del género — hasta las entrañas del laboratorio de Fessenden.</p><p>Los enemigos evolucionan de simples pandilleros a soldados armados y criaturas mutantes, mientras los propios dinosaurios irrumpen como fuerza neutral: atacan por igual a héroes y villanos, una idea de diseño adelantada a su tiempo.</p><h5>El monstruo final</h5><p>Acorralado, Fessenden se inyecta su propio suero y muta en un híbrido humano-saurio grotesco. Derrotarlo restaura el equilibrio del mundo Xenozoico: los dinosaurios regresan a sus territorios y la Ciudad del Mar respira de nuevo.</p><p>Jack y su Cadillac se pierden en el horizonte prehistórico, cerrando la aventura que en México se volvió sinónimo de &lsquo;las maquinitas&rsquo; de los noventa.</p></div>
 <div class="sub"><h4>3.1 DISEÑO Y MECÁNICAS (8-10 min)</h4><ul>
 <li>¿Qué hace único al diseño de CADILLACS AND DINOSAURS respecto a su época y género?</li>
 <li>¿Sus mecánicas centrales envejecieron bien o muestran su edad?</li>

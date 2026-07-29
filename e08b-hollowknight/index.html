@@ -142,6 +142,12 @@ footer p{font-size:12px;color:var(--dim);}
 .segment::before{content:'ψ';color:rgba(94,234,212,0.18);position:absolute;left:-22px;top:2px;font-size:16px;}
 .segment{position:relative;}
 .source-card:hover{border-color:rgba(15,118,110,0.5);box-shadow:0 0 20px rgba(15,118,110,0.12);}
+
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
 </style>
 </head>
 <body>
@@ -188,7 +194,13 @@ footer p{font-size:12px;color:var(--dim);}
   <line x1="38" y1="95" x2="52" y2="95" stroke="#5eead4" stroke-width="1.5" opacity="0.5"/>
 </svg>
 </div>
-<style>@keyframes heroDeco{0%{opacity:0.09;transform:translateY(0) scale(0.97);}100%{opacity:0.19;transform:translateY(-8px) scale(1.03);}}</style>
+<style>@keyframes heroDeco{0%{opacity:0.09;transform:translateY(0) scale(0.97);}100%{opacity:0.19;transform:translateY(-8px) scale(1.03);}}
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
+</style>
 <div class="hero-glow"></div>
 <div class="hero-content">
 <div class="logo-row"><img class="logo-mark" id="lm" alt="CC"><span class="logo-text">COMPASS CATCHUP // <span class="logo-ep">T6 B-SIDE</span></span></div>
@@ -232,19 +244,19 @@ footer p{font-size:12px;color:var(--dim);}
 <div class="ctx-grid">
 <div class="ctx-card">
 <h4>📻 RADIO MX (2017)</h4>
-<ul class="radio-list"><li>Banda MS — 'Me Gustas' (Amor Puro, 2017)</li><li>Grupo Firme — 'Ya Supérame' (emergente 2017-2018)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/results?search_query=Banda+MS++++Me+Gustas+official+video" target="_blank">Banda MS — 'Me Gustas' (Amor Puro, 2017)</a></li><li><a href="https://www.youtube.com/watch?v=g2BzGJnNvEw" target="_blank">Grupo Firme — 'Ya Supérame' (emergente 2017-2018)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>🌍 RADIO MUNDIAL (2017)</h4>
-<ul class="radio-list"><li>Ed Sheeran — 'Shape of You' (÷ Divide, 2017)</li><li>Luis Fonsi — 'Despacito' ft. Daddy Yankee (Vida, 2017)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/watch?v=JGwWNGJdvx8" target="_blank">Ed Sheeran — 'Shape of You' (÷ Divide, 2017)</a></li><li><a href="https://www.youtube.com/watch?v=kJQP7kiw5Fk" target="_blank">Luis Fonsi — 'Despacito' ft. Daddy Yankee (Vida, 2017)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>📺 TV / CULTURA (2017)</h4>
-<p>Netflix con <em>Stranger Things</em>; YouTube como plataforma principal.</p>
+<p>Netflix con <a href="https://www.youtube.com/results?search_query=Stranger+Things+trailer" target="_blank"><em>Stranger Things</em></a>; YouTube como plataforma principal.</p>
 </div>
 <div class="ctx-card">
 <h4>EN EL DORADO (CIUDAD DE MAX)</h4>
-<ul class="ctx-city"><li>2017: El Dorado celebra su centenario como municipio sinaloense.</li><li>Llegada de Telcel 4G LTE a municipios medianos de Sinaloa.</li><li>Primer torneo de videojuegos en el Tecnológico de El Dorado.</li></ul>
+<ul class="ctx-city"><li><a href="https://es.wikipedia.org/wiki/Eldorado_(Sinaloa)" target="_blank">Eldorado, corazón cañero de Sinaloa, mantenía viva la tradición de la zafra del ingenio azucarero.</a></li><li><a href="https://es.wikipedia.org/wiki/4G" target="_blank">Llegada de Telcel 4G LTE a municipios medianos de Sinaloa.</a></li><li><a href="https://es.wikipedia.org/wiki/Deporte_electr%C3%B3nico" target="_blank">La comunidad gamer local crecía alrededor de cibercafés y torneos escolares.</a></li></ul>
 </div>
 </div>
 <div class="sub"><h4>PREGUNTA ANCLA (SE RETOMA EN CIERRE)</h4><ul><li><em>"¿Puede un equipo de 3 personas hacer el mejor metroidvania de la historia, y si es así, qué le dice eso a la industria?"</em></li></ul></div>
@@ -262,6 +274,7 @@ footer p{font-size:12px;color:var(--dim);}
 
 <section class="segment" id="s3">
 <div class="segment-head"><div class="segment-num">03</div><div class="segment-titles"><h3>EL CORAZÓN DEL JUEGO</h3><div class="duration">25 – 35 MIN</div></div></div>
+<div class="prologue"><span class="p-tag">▸ PRÓLOGO — LA HISTORIA COMPLETA: EL REINO CAÍDO DE HALLOWNEST</span><h5>El caballero sin nombre</h5><p>Un pequeño insecto de máscara blanca y aguijón desciende hacia Dirtmouth, el pueblo marchito sobre las ruinas de un reino. Abajo duerme <a href="https://es.wikipedia.org/wiki/Hollow_Knight" target="_blank">Hallownest</a>, la civilización de los insectos que un día fue gloriosa y hoy es un laberinto de cadáveres que caminan.</p><p>El juego no explica nada: el Caballero baja porque algo lo llama. La historia está enterrada — en inscripciones, en NPCs moribundos, en la arquitectura misma — esperando a quien quiera excavarla.</p><h5>La plaga y el rey pálido</h5><p>La verdad se arma en fragmentos: Hallownest cayó por la Infección, una plaga luminosa que devora la mente. Su origen es la Radiance, una diosa polilla ancestral que el Rey Pálido intentó borrar de la memoria del reino.</p><p>El plan del rey fue monstruoso: criar en el Abismo un recipiente &lsquo;puro&rsquo; — sin mente, sin voluntad, sin voz — para sellar dentro a la diosa. El elegido fue el Hollow Knight, encadenado en el Templo del Huevo Negro bajo la vigilia de tres Soñadores: Lurien, Monomon y Herrah.</p><h5>Los tres sellos</h5><p>El Caballero — otro de los miles de recipientes desechados en el Abismo, revelación que golpea a mitad del viaje — debe romper los sellos de los Soñadores para abrir el templo, cruzando la Ciudad de Lágrimas bajo su lluvia eterna, los Jardines de la Reina, Deepnest y el Palacio Blanco.</p><p>Cada rincón guarda duelos memorables: Hornet, la princesa protectora; los Señores Mantis y su código de honor; los caballeros de la mesa redonda caída; y el propio pasado del reino en el Sueño.</p><h5>Los finales del abismo</h5><p>Ante el Hollow Knight corrompido caben dos destinos: ocupar su lugar y perpetuar el ciclo — el final agridulce del &lsquo;Sellado&rsquo; — o portar el Corazón del Vacío, forjado en el fondo del Abismo, para entrar al sueño y aniquilar a la Radiance de una vez.</p><p>En el final verdadero, el vacío unificado devora a la diosa y la Infección termina; el Caballero se disuelve con ella. Hornet queda como testigo... y como puente hacia Silksong. Team Cherry construyó con tres personas el metroidvania que definió una década.</p></div>
 <div class="sub"><h4>3.1 DISEÑO Y MECÁNICAS (8-10 min)</h4><ul>
 <li>¿Qué hace único al diseño de HOLLOW KNIGHT respecto a su época y género?</li>
 <li>¿Sus mecánicas centrales envejecieron bien o muestran su edad?</li>
@@ -335,7 +348,7 @@ footer p{font-size:12px;color:var(--dim);}
 <span class="kind">WALKTHROUGH SIN COMENTARIOS</span>
 <div class="title">Hollow Knight (PC) — Full Longplay No Commentary</div>
 <p>Recorrido completo en PC sin comentarios. El longplay ideal cubre el True Ending (Hollow Knight + Radiance).</p>
-<p><a href="https://www.youtube.com/results?search_query=hollow+knight+pc+longplay+no+commentary+full+game" target="_blank">https://www.youtube.com/results?search_query=hollow+knight+pc+longplay+no+commentary+full+game</a></p>
+<p><a href="https://www.youtube.com/watch?v=e_jjd5g9q_w" target="_blank">https://www.youtube.com/watch?v=e_jjd5g9q_w</a></p>
 </div></div>
 <div class="source-card"><span class="icon">🎙️</span><div class="body">
 <span class="kind">ENTREVISTA / FUENTE CON LOS DESARROLLADORES</span>

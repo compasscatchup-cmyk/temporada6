@@ -137,6 +137,12 @@ footer p{font-size:12px;color:var(--dim);}
 .segment::before{content:'◉';color:rgba(74,158,255,0.18);position:absolute;left:-24px;top:3px;font-size:15px;}
 .segment{position:relative;}
 .source-card:hover{border-color:rgba(193,18,31,0.4);box-shadow:0 0 16px rgba(193,18,31,0.10);}
+
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
 </style>
 </head>
 <body>
@@ -176,7 +182,13 @@ footer p{font-size:12px;color:var(--dim);}
   <circle cx="45" cy="45" r="7" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
 </svg>
 </div>
-<style>@keyframes heroDeco{0%{opacity:0.08;transform:rotate(-5deg);}100%{opacity:0.17;transform:rotate(5deg);}}</style>
+<style>@keyframes heroDeco{0%{opacity:0.08;transform:rotate(-5deg);}100%{opacity:0.17;transform:rotate(5deg);}}
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
+</style>
 <div class="hero-glow"></div>
 <div class="hero-content">
 <div class="logo-row"><img class="logo-mark" id="lm" alt="CC"><span class="logo-text">COMPASS CATCHUP // <span class="logo-ep">T6 A-SIDE</span></span></div>
@@ -220,19 +232,19 @@ footer p{font-size:12px;color:var(--dim);}
 <div class="ctx-grid">
 <div class="ctx-card">
 <h4>📻 RADIO MX (2003)</h4>
-<ul class="radio-list"><li>RBD — 'Rebelde' (Rebelde, 2004 — fenómeno emergente en 2003)</li><li>Belinda — 'Lo Que Siento por Ti' (Belinda, 2003)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/watch?v=ZB4RFVAlNFw" target="_blank">RBD — 'Rebelde' (Rebelde, 2004 — fenómeno emergente en 2003)</a></li><li><a href="https://www.youtube.com/results?search_query=Belinda++++Lo+Que+Siento+por+Ti+official+video" target="_blank">Belinda — 'Lo Que Siento por Ti' (Belinda, 2003)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>🌍 RADIO MUNDIAL (2003)</h4>
-<ul class="radio-list"><li>50 Cent — 'In da Club' (Get Rich or Die Tryin', 2003)</li><li>Beyoncé — 'Crazy in Love' ft. Jay-Z (Dangerously in Love, 2003)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/watch?v=5qm8PH4xAss" target="_blank">50 Cent — 'In da Club' (Get Rich or Die Tryin', 2003)</a></li><li><a href="https://www.youtube.com/watch?v=ViwtNLUqkMY" target="_blank">Beyoncé — 'Crazy in Love' ft. Jay-Z (Dangerously in Love, 2003)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>📺 TV / CULTURA (2003)</h4>
-<p><em>Big Brother</em> primera temporada en Televisa; fútbol en Canal 5 y Azteca.</p>
+<p><a href="https://www.youtube.com/results?search_query=Big+Brother+trailer" target="_blank"><em>Big Brother</em></a> primera temporada en Televisa; fútbol en Canal 5 y Azteca.</p>
 </div>
 <div class="ctx-card">
 <h4>EN CIUDAD DE MÉXICO (CIUDAD DE TORCHIC)</h4>
-<ul class="ctx-city"><li>2003: Inauguración de la Línea B del Metro CDMX.</li><li>Lanzamiento de la primera BlackBerry en México.</li><li>Apertura del primer Starbucks en México (Polanco).</li></ul>
+<ul class="ctx-city"><li><a href="https://es.wikipedia.org/wiki/L%C3%ADnea_B_del_Metro_de_la_Ciudad_de_M%C3%A9xico" target="_blank">La Línea B del Metro (inaugurada por etapas en 1999–2000) consolidaba la conexión Buenavista–Ciudad Azteca.</a></li><li><a href="https://es.wikipedia.org/wiki/Telcel" target="_blank">Boom de la telefonía celular y los mensajes SMS en la capital.</a></li><li><a href="https://es.wikipedia.org/wiki/Starbucks" target="_blank">Starbucks abría sus primeras sucursales en México (la primera llegó en 2002) y cambiaba la cultura del café.</a></li></ul>
 </div>
 </div>
 <div class="sub"><h4>PREGUNTA ANCLA (SE RETOMA EN CIERRE)</h4><ul><li><em>"¿La tercera generación rescató o casi mató a Pokémon, y qué podemos aprender de ese riesgo creativo?"</em></li></ul></div>
@@ -250,6 +262,7 @@ footer p{font-size:12px;color:var(--dim);}
 
 <section class="segment" id="s3">
 <div class="segment-head"><div class="segment-num">03</div><div class="segment-titles"><h3>EL CORAZÓN DEL JUEGO</h3><div class="duration">25 – 35 MIN</div></div></div>
+<div class="prologue"><span class="p-tag">▸ PRÓLOGO — LA HISTORIA COMPLETA: LA TIERRA DE HOENN</span><h5>Un nuevo comienzo en Villa Raíz</h5><p>Un camión de mudanza llega a Villa Raíz: el protagonista estrena vida en <a href="https://es.wikipedia.org/wiki/Pok%C3%A9mon_Rub%C3%AD_y_Zafiro" target="_blank">Hoenn</a>, la región tropical inspirada en Kyushu, donde su padre Norman dirige el gimnasio de Ciudad Petalia. El Profesor Abedul, atacado por un Poochyena salvaje, le regala su primer Pokémon: Treecko, Torchic o Mudkip.</p><p>Junto a May (o Brendan), su rival y amiga, comienza el recorrido por los ocho gimnasios de una región partida por el agua: rutas marinas, buceo, ciclovías y la Bicicleta Mach contra la Acro, en la generación que estrenó batallas dobles, habilidades y naturalezas.</p><h5>Dos equipos, dos titanes</h5><p>Hoenn está en disputa ideológica: el Equipo Magma de Maxie quiere expandir los continentes despertando a Groudon, mientras el Equipo Aqua de Archie sueña con océanos infinitos mediante Kyogre. En Esmeralda, ambas conspiraciones avanzan en paralelo y el jugador queda atrapado en medio.</p><p>Del Monte Cenizo al Instituto del Clima, de la Cueva Cardumen a las profundidades del Abismal, los planes culminan en catástrofe: los titanes despiertan y el clima del mundo colapsa — sequía abrasadora contra diluvio interminable, enfrentados en Ciudad Arrecípolis.</p><h5>El dragón del cielo</h5><p>En Esmeralda, la solución está en la cima del Pilar Celeste: despertar a Rayquaza, el dragón de la capa de ozono, único capaz de someter a los dos titanes. Su descenso sobre la batalla de Groudon y Kyogre es uno de los momentos más icónicos de la franquicia.</p><p>Con la calma restaurada, el camino sigue: la Liga Pokémon en Colosalia, la Élite de los Cuatro y el campeón — Steven Stone en Rubí/Zafiro, Wallace en Esmeralda.</p><h5>Más allá de la Liga</h5><p>El posjuego de Esmeralda define el estándar: el Frente de Batalla con sus siete instalaciones y Cerebros de la Frontera, la caza de Latios/Latias, los Regis ancestrales desbloqueados con braille, y cientos de horas de concursos, bases secretas y ceniza volcánica.</p><p>Para muchos mexicanos de 2003–2005, Hoenn fue sinónimo de recreo, cable link y rumores de patio: el 'Pokémon detrás del camión' incluido.</p></div>
 <div class="sub"><h4>3.1 DISEÑO Y MECÁNICAS (8-10 min)</h4><ul>
 <li>¿Qué hace único al diseño de POKÉMON RUBY / SAPPHIRE / EMERALD respecto a su época y género?</li>
 <li>¿Sus mecánicas centrales envejecieron bien o muestran su edad?</li>
@@ -323,7 +336,7 @@ footer p{font-size:12px;color:var(--dim);}
 <span class="kind">WALKTHROUGH SIN COMENTARIOS</span>
 <div class="title">Pokémon Emerald — Full Longplay No Commentary (GBA)</div>
 <p>Recorrido completo de Pokémon Esmeralda en GBA sin comentarios.</p>
-<p><a href="https://www.youtube.com/results?search_query=pokemon+emerald+longplay+no+commentary+full+game" target="_blank">https://www.youtube.com/results?search_query=pokemon+emerald+longplay+no+commentary+full+game</a></p>
+<p><a href="https://www.youtube.com/watch?v=4zPp9y1UMJE" target="_blank">https://www.youtube.com/watch?v=4zPp9y1UMJE</a></p>
 </div></div>
 <div class="source-card"><span class="icon">🎙️</span><div class="body">
 <span class="kind">ENTREVISTA / FUENTE CON LOS DESARROLLADORES</span>

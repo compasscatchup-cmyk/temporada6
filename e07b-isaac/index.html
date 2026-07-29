@@ -145,6 +145,12 @@ footer p{font-size:12px;color:var(--dim);}
 .segment::before{content:'✟';color:rgba(196,181,253,0.18);position:absolute;left:-22px;top:2px;font-size:15px;}
 .segment{position:relative;}
 .source-card:hover{border-color:rgba(124,58,237,0.5);box-shadow:0 0 20px rgba(124,58,237,0.12);}
+
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
 </style>
 </head>
 <body>
@@ -190,7 +196,13 @@ footer p{font-size:12px;color:var(--dim);}
   <path d="M33 58 Q45 53 57 58" stroke="#7c3aed" stroke-width="1.5" fill="none" opacity="0.7"/>
 </svg>
 </div>
-<style>@keyframes heroDeco{0%{opacity:0.09;transform:translateY(0);}100%{opacity:0.18;transform:translateY(-6px);}}</style>
+<style>@keyframes heroDeco{0%{opacity:0.09;transform:translateY(0);}100%{opacity:0.18;transform:translateY(-6px);}}
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
+</style>
 <div class="hero-glow"></div>
 <div class="hero-content">
 <div class="logo-row"><img class="logo-mark" id="lm" alt="CC"><span class="logo-text">COMPASS CATCHUP // <span class="logo-ep">T6 B-SIDE</span></span></div>
@@ -234,19 +246,19 @@ footer p{font-size:12px;color:var(--dim);}
 <div class="ctx-grid">
 <div class="ctx-card">
 <h4>📻 RADIO MX (2014)</h4>
-<ul class="radio-list"><li>Maluma — 'La Temperatura' ft. Eli Palacios (Magia, 2012–replay 2014)</li><li>Ha*Ash — 'Primera Fila' (Primera Fila, 2014)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/results?search_query=Maluma++++La+Temperatura++ft.+Eli+Palacios+official+video" target="_blank">Maluma — 'La Temperatura' ft. Eli Palacios (Magia, 2012–replay 2014)</a></li><li><a href="https://www.youtube.com/results?search_query=Ha%2AAsh++++Primera+Fila+official+video" target="_blank">Ha*Ash — 'Primera Fila' (Primera Fila, 2014)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>🌍 RADIO MUNDIAL (2014)</h4>
-<ul class="radio-list"><li>Pharrell Williams — 'Happy' (G I R L, 2014)</li><li>John Legend — 'All of Me' (Love in the Future, 2013–replay 2014)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/watch?v=ZbZSe6N_BXs" target="_blank">Pharrell Williams — 'Happy' (G I R L, 2014)</a></li><li><a href="https://www.youtube.com/watch?v=450p7goxZqg" target="_blank">John Legend — 'All of Me' (Love in the Future, 2013–replay 2014)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>📺 TV / CULTURA (2014)</h4>
-<p>Netflix crecía en México; <em>Breaking Bad</em> en su temporada final.</p>
+<p>Netflix crecía en México; <a href="https://www.youtube.com/results?search_query=Breaking+Bad+trailer" target="_blank"><em>Breaking Bad</em></a> en su temporada final.</p>
 </div>
 <div class="ctx-card">
 <h4>EN MORELIA (CIUDAD DE ADAM)</h4>
-<ul class="ctx-city"><li>2014: Michoacán enfrenta el surgimiento de las autodefensas comunitarias.</li><li>Morelia sede del FICM en su 12ª edición.</li><li>Steam comenzaba a dominar el PC gaming en México.</li></ul>
+<ul class="ctx-city"><li><a href="https://es.wikipedia.org/wiki/Autodefensas_de_Michoac%C3%A1n" target="_blank">2014: Michoacán enfrenta el surgimiento de las autodefensas comunitarias.</a></li><li><a href="https://es.wikipedia.org/wiki/Festival_Internacional_de_Cine_de_Morelia" target="_blank">Morelia sede del FICM en su 12ª edición.</a></li><li><a href="https://es.wikipedia.org/wiki/Steam" target="_blank">Steam comenzaba a dominar el PC gaming en México.</a></li></ul>
 </div>
 </div>
 <div class="sub"><h4>PREGUNTA ANCLA (SE RETOMA EN CIERRE)</h4><ul><li><em>"¿Puede un videojuego construido sobre trauma infantil y religión ser terapéutico para quien lo juega, o solo lo es para quien lo creó?"</em></li></ul></div>
@@ -264,6 +276,7 @@ footer p{font-size:12px;color:var(--dim);}
 
 <section class="segment" id="s3">
 <div class="segment-head"><div class="segment-num">03</div><div class="segment-titles"><h3>EL CORAZÓN DEL JUEGO</h3><div class="duration">25 – 35 MIN</div></div></div>
+<div class="prologue"><span class="p-tag">▸ PRÓLOGO — LA HISTORIA COMPLETA: EL SÓTANO DE ISAAC</span><h5>La voz desde arriba</h5><p>Isaac vive solo con su madre en una pequeña casa sobre una colina, dibujando mientras ella mira televisión cristiana. Un día, la madre escucha una voz que cree divina: su hijo está corrompido y debe ser purificado. Primero le quita los juguetes y la ropa; luego, la voz exige la prueba definitiva de fe — su sacrificio. Así abre <a href="https://es.wikipedia.org/wiki/The_Binding_of_Isaac" target="_blank">The Binding of Isaac</a>, la relectura bíblica más incómoda del videojuego independiente.</p><p>Isaac encuentra una trampilla bajo la alfombra de su cuarto y se lanza al sótano justo cuando su madre irrumpe con el cuchillo. Lo que hay abajo no es un refugio: es su propia mente.</p><h5>Un descenso hecho de miedos</h5><p>El sótano se genera distinto en cada intento: pisos de Cellar, Caves, Depths y Womb habitados por versiones deformes del propio Isaac — hermanos llorones, moscas, masas de carne — que combate con sus lágrimas como proyectiles.</p><p>Cada objeto encontrado lo transforma física y simbólicamente: perchas, cucharas dobladas, píldoras, cartas del tarot, pactos con el diablo o reliquias de santidad. La iconografía mezcla catecismo, culpa, abuso y humor escatológico sin pedir permiso.</p><h5>Mamá y lo que hay después</h5><p>Al fondo de las profundidades espera el primer gran duelo: Mom, un pie gigante que aplasta la pantalla, y después su Corazón latiendo en el vientre del juego. Derrotarlos no termina nada: abre capas — Sheol y el duelo con Satán, la Catedral y el duelo con Isaac mismo.</p><p>Rebirth suma The Chest y la Dark Room, Mega Satan y, con las expansiones, el árbol completo de verdades: cada final es una viñeta más del rompecabezas.</p><h5>Lo que cuenta el cofre</h5><p>La lectura se arma entre líneas: un niño encerrándose en un cofre mientras respira su último aire, una familia rota por el fanatismo y el abandono del padre, y la imaginación como único escape del maltrato. Isaac pelea, literalmente, contra la imagen que tiene de sí mismo.</p><p>Pocas obras del medio han contado tanto con tan poco: un roguelike de lágrimas que es, al mismo tiempo, uno de los retratos más devastadores del trauma infantil jamás jugados.</p></div>
 <div class="sub"><h4>3.1 DISEÑO Y MECÁNICAS (8-10 min)</h4><ul>
 <li>¿Qué hace único al diseño de BINDING OF ISAAC: REBIRTH respecto a su época y género?</li>
 <li>¿Sus mecánicas centrales envejecieron bien o muestran su edad?</li>
@@ -337,7 +350,7 @@ footer p{font-size:12px;color:var(--dim);}
 <span class="kind">WALKTHROUGH SIN COMENTARIOS</span>
 <div class="title">The Binding of Isaac: Rebirth — Full Run No Commentary</div>
 <p>Partida completa sin comentarios. Buscar un run que llegue al True Ending.</p>
-<p><a href="https://www.youtube.com/results?search_query=binding+of+isaac+rebirth+full+run+no+commentary" target="_blank">https://www.youtube.com/results?search_query=binding+of+isaac+rebirth+full+run+no+commentary</a></p>
+<p><a href="https://www.youtube.com/watch?v=3KMDH13iymw" target="_blank">https://www.youtube.com/watch?v=3KMDH13iymw</a></p>
 </div></div>
 <div class="source-card"><span class="icon">🎙️</span><div class="body">
 <span class="kind">ENTREVISTA / FUENTE CON LOS DESARROLLADORES</span>

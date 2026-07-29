@@ -141,6 +141,12 @@ footer p{font-size:12px;color:var(--dim);}
 .segment::before{content:'🌑';position:absolute;left:-26px;top:0;font-size:13px;opacity:0.25;}
 .segment{position:relative;}
 .source-card:hover{border-color:rgba(109,40,217,0.5);box-shadow:0 0 20px rgba(109,40,217,0.12);}
+
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
 </style>
 </head>
 <body>
@@ -184,7 +190,13 @@ footer p{font-size:12px;color:var(--dim);}
   <path d="M72 18 Q80 5 86 2" stroke="#6d28d9" stroke-width="2" fill="none" opacity="0.6"/>
 </svg>
 </div>
-<style>@keyframes heroDeco{0%{opacity:0.08;transform:rotate(0deg);}100%{opacity:0.17;transform:rotate(360deg);}}</style>
+<style>@keyframes heroDeco{0%{opacity:0.08;transform:rotate(0deg);}100%{opacity:0.17;transform:rotate(360deg);}}
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
+</style>
 <div class="hero-glow"></div>
 <div class="hero-content">
 <div class="logo-row"><img class="logo-mark" id="lm" alt="CC"><span class="logo-text">COMPASS CATCHUP // <span class="logo-ep">T6 B-SIDE</span></span></div>
@@ -228,11 +240,11 @@ footer p{font-size:12px;color:var(--dim);}
 <div class="ctx-grid">
 <div class="ctx-card">
 <h4>📻 RADIO MX (2000)</h4>
-<ul class="radio-list"><li>Molotov — 'Dance and Dense Denso' (Dance and Dense Denso, 2000)</li><li>Paulina Rubio — 'Lo Haré por Ti' (Paulina, 2000)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/results?search_query=Molotov++++Dance+and+Dense+Denso+official+video" target="_blank">Molotov — 'Dance and Dense Denso' (Dance and Dense Denso, 2000)</a></li><li><a href="https://www.youtube.com/results?search_query=Paulina+Rubio++++Lo+Har%C3%A9+por+Ti+official+video" target="_blank">Paulina Rubio — 'Lo Haré por Ti' (Paulina, 2000)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>🌍 RADIO MUNDIAL (2000)</h4>
-<ul class="radio-list"><li>Eminem — 'The Real Slim Shady' (The Marshall Mathers LP, 2000)</li><li>*NSYNC — 'Bye Bye Bye' (No Strings Attached, 2000)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/watch?v=eJO5HU_7_1w" target="_blank">Eminem — 'The Real Slim Shady' (The Marshall Mathers LP, 2000)</a></li><li><a href="https://www.youtube.com/watch?v=Eo-KmOd3i7s" target="_blank">*NSYNC — 'Bye Bye Bye' (No Strings Attached, 2000)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>📺 TV / CULTURA (2000)</h4>
@@ -240,7 +252,7 @@ footer p{font-size:12px;color:var(--dim);}
 </div>
 <div class="ctx-card">
 <h4>EN CIUDAD DE MÉXICO (CIUDAD DE JORGE)</h4>
-<ul class="ctx-city"><li>2000: Elecciones históricas — Vicente Fox gana; fin de 71 años del PRI.</li><li>Primer Cinépolis Insurgentes; boom del multiplex.</li><li>N64 en su etapa final; PlayStation 2 anunciada.</li></ul>
+<ul class="ctx-city"><li><a href="https://es.wikipedia.org/wiki/Elecciones_federales_de_M%C3%A9xico_de_2000" target="_blank">2000: Elecciones históricas — Vicente Fox gana; fin de 71 años del PRI.</a></li><li><a href="https://es.wikipedia.org/wiki/L%C3%ADnea_B_del_Metro_de_la_Ciudad_de_M%C3%A9xico" target="_blank">La Línea B del Metro abría por etapas (1999–2000): Buenavista–Ciudad Azteca.</a></li><li><a href="https://es.wikipedia.org/wiki/PlayStation_2" target="_blank">N64 en su etapa final; PlayStation 2 anunciada.</a></li></ul>
 </div>
 </div>
 <div class="sub"><h4>PREGUNTA ANCLA (SE RETOMA EN CIERRE)</h4><ul><li><em>"¿Es Majora's Mask un juego de Zelda con una crisis existencial, o una crisis existencial disfrazada de juego de Zelda?"</em></li></ul></div>
@@ -258,6 +270,7 @@ footer p{font-size:12px;color:var(--dim);}
 
 <section class="segment" id="s3">
 <div class="segment-head"><div class="segment-num">03</div><div class="segment-titles"><h3>EL CORAZÓN DEL JUEGO</h3><div class="duration">25 – 35 MIN</div></div></div>
+<div class="prologue"><span class="p-tag">▸ PRÓLOGO — LA HISTORIA COMPLETA: TRES DÍAS PARA EL FIN DEL MUNDO</span><h5>El ladrón del bosque</h5><p>Meses después de Ocarina of Time, Link cabalga por los Bosques Perdidos buscando a un amigo perdido. En <a href="https://es.wikipedia.org/wiki/The_Legend_of_Zelda:_Majora%27s_Mask" target="_blank">Majora&rsquo;s Mask</a>, la búsqueda se tuerce: un Skull Kid enmascarado le roba a Epona y la Ocarina del Tiempo, y al perseguirlo Link cae por un túnel hacia otro mundo — convertido en un arbusto Deku por la magia de la máscara.</p><p>Ese mundo es Termina, un reflejo torcido de Hyrule con rostros conocidos y destinos distintos. Y sobre su capital, Ciudad Reloj, cuelga una luna con rostro de pesadilla que caerá en exactamente tres días.</p><h5>El ciclo de las 72 horas</h5><p>El Vendedor de Máscaras Feliz explica la tragedia: la Máscara de Majora, un artefacto ancestral de poder maligno, ha poseído al Skull Kid. Cuando todo parece perdido, Link recupera la ocarina y la Canción del Tiempo lo regresa al amanecer del primer día.</p><p>Ese es el corazón del juego: un bucle de 72 horas donde cada habitante de Termina vive su rutina, sus miedos y sus últimas horas. Link lo revive una y otra vez, conservando lo esencial, para salvar lo que el tiempo insiste en condenar — incluida la historia de Anju y Kafei, la misión secundaria más triste y hermosa de la saga.</p><h5>Cuatro gigantes, tres máscaras</h5><p>La salvación exige despertar a los Cuatro Gigantes, guardianes dormidos en los templos de Woodfall, Snowhead, Great Bay y el valle maldito de Ikana con su Torre de Piedra invertida.</p><p>Para lograrlo, Link porta las máscaras de los muertos: el Deku, el Goron Darmani y el Zora Mikau, viviendo literalmente en la piel de quienes no pudieron completar su historia. Cada transformación es un pequeño duelo — sanar el arrepentimiento ajeno como mecánica de juego.</p><h5>La caída de la luna</h5><p>En la medianoche del tercer día, la Oda a la Convocatoria reúne a los gigantes, que detienen la luna con sus brazos. Majora abandona entonces al Skull Kid — nunca fue más que su marioneta — y arrastra a Link al interior del astro: un campo idílico con un árbol y niños enmascarados jugando.</p><p>Allí espera el duelo final contra la Máscara, la Encarnación y la Ira de Majora, con la Máscara de la Deidad Feroz como respuesta oscura. Al amanecer del nuevo día, Termina celebra el Carnaval del Tiempo: el pueblo que aprendió a despedirse, por fin, no tuvo que hacerlo.</p></div>
 <div class="sub"><h4>3.1 DISEÑO Y MECÁNICAS (8-10 min)</h4><ul>
 <li>¿Qué hace único al diseño de ZELDA: MAJORA'S MASK respecto a su época y género?</li>
 <li>¿Sus mecánicas centrales envejecieron bien o muestran su edad?</li>
@@ -331,7 +344,7 @@ footer p{font-size:12px;color:var(--dim);}
 <span class="kind">WALKTHROUGH SIN COMENTARIOS</span>
 <div class="title">Zelda: Majora's Mask (N64) — 100% Longplay No Commentary</div>
 <p>Recorrido 100% en N64 sin comentarios: 4 mazmorras, todas las máscaras y el ciclo completo.</p>
-<p><a href="https://www.youtube.com/results?search_query=zelda+majora%27s+mask+n64+longplay+no+commentary+100+percent" target="_blank">https://www.youtube.com/results?search_query=zelda+majora%27s+mask+n64+longplay+no+commentary+100+percent</a></p>
+<p><a href="https://www.youtube.com/watch?v=WAC7TN5Kh4A" target="_blank">https://www.youtube.com/watch?v=WAC7TN5Kh4A</a></p>
 </div></div>
 <div class="source-card"><span class="icon">🎙️</span><div class="body">
 <span class="kind">ENTREVISTA / FUENTE CON LOS DESARROLLADORES</span>

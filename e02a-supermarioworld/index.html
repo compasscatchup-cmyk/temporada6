@@ -125,6 +125,12 @@ footer p{font-size:12px;color:var(--dim);}
 .segment::before{content:'★';color:rgba(255,221,87,0.18);position:absolute;left:-24px;top:2px;font-size:14px;}
 .segment{position:relative;}
 .source-card:hover{border-color:rgba(229,34,34,0.4);box-shadow:0 0 18px rgba(229,34,34,0.10);}
+
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
 </style>
 </head>
 <body>
@@ -160,7 +166,13 @@ footer p{font-size:12px;color:var(--dim);}
   <polygon points="50,15 58,38 82,38 63,52 71,76 50,62 29,76 37,52 18,38 42,38" fill="#e52222" opacity="0.4"/>
 </svg>
 </div>
-<style>@keyframes heroDeco{0%{opacity:0.08;transform:rotate(-5deg) scale(0.95);}100%{opacity:0.18;transform:rotate(5deg) scale(1.05);}}</style>
+<style>@keyframes heroDeco{0%{opacity:0.08;transform:rotate(-5deg) scale(0.95);}100%{opacity:0.18;transform:rotate(5deg) scale(1.05);}}
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
+</style>
 <div class="hero-content">
 <div class="logo-row"><img class="logo-mark" id="lm" alt="CC"><span class="logo-text">COMPASS CATCHUP // <span class="logo-ep">T6 A-SIDE</span></span></div>
 <h1>SUPER MARIO WORLD // 1991</h1>
@@ -203,19 +215,19 @@ footer p{font-size:12px;color:var(--dim);}
 <div class="ctx-grid">
 <div class="ctx-card">
 <h4>📻 RADIO MX (1991)</h4>
-<ul class="radio-list"><li>Luis Miguel — 'Culpable o No' (Romance, 1991)</li><li>Alejandra Guzmán — 'Mala Hierba' (Flor de Papel, 1991)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/results?search_query=Luis+Miguel++++Culpable+o+No+official+video" target="_blank">Luis Miguel — 'Culpable o No' (Romance, 1991)</a></li><li><a href="https://www.youtube.com/results?search_query=Alejandra+Guzm%C3%A1n++++Mala+Hierba+official+video" target="_blank">Alejandra Guzmán — 'Mala Hierba' (Flor de Papel, 1991)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>🌍 RADIO MUNDIAL (1991)</h4>
-<ul class="radio-list"><li>Bryan Adams — '(Everything I Do) I Do It for You' (Robin Hood OST, 1991)</li><li>Nirvana — 'Smells Like Teen Spirit' (Nevermind, 1991)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/watch?v=ZGoWtY_h4xo" target="_blank">Bryan Adams — '(Everything I Do) I Do It for You' (Robin Hood OST, 1991)</a></li><li><a href="https://www.youtube.com/watch?v=hTWKbfoikeg" target="_blank">Nirvana — 'Smells Like Teen Spirit' (Nevermind, 1991)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>📺 TV / CULTURA (1991)</h4>
-<p>Canal de las Estrellas con <em>Valentina</em>; auge de las tiendas de videojuegos en Guadalajara.</p>
+<p>Canal de las Estrellas con <a href="https://www.youtube.com/results?search_query=Valentina+trailer" target="_blank"><em>Valentina</em></a>; auge de las tiendas de videojuegos en Guadalajara.</p>
 </div>
 <div class="ctx-card">
 <h4>EN GUADALAJARA (CIUDAD DE BICHO)</h4>
-<ul class="ctx-city"><li>1991: Inauguración del Tren Ligero línea 1, primer metro de Guadalajara.</li><li>Primera edición de la Feria Internacional del Libro (FIL).</li><li>Auge de los salones de arcade en Centro Magno y Plaza del Sol.</li></ul>
+<ul class="ctx-city"><li><a href="https://es.wikipedia.org/wiki/Tren_El%C3%A9ctrico_Urbano_de_Guadalajara" target="_blank">El Tren Ligero de Guadalajara (inaugurado en 1989) transformaba la movilidad de la ciudad.</a></li><li><a href="https://es.wikipedia.org/wiki/Feria_Internacional_del_Libro_de_Guadalajara" target="_blank">La FIL de Guadalajara celebraba su 5ª edición (fue fundada en 1987).</a></li><li><a href="https://es.wikipedia.org/wiki/Plaza_del_Sol_(Guadalajara)" target="_blank">Auge de los salones de arcade en Plaza del Sol y el centro tapatío.</a></li></ul>
 </div>
 </div>
 <div class="sub"><h4>PREGUNTA ANCLA (SE RETOMA EN CIERRE)</h4><ul><li><em>"¿Qué hace que un juego de plataformas sea eterno y no solo nostálgico?"</em></li></ul></div>
@@ -233,6 +245,7 @@ footer p{font-size:12px;color:var(--dim);}
 
 <section class="segment" id="s3">
 <div class="segment-head"><div class="segment-num">03</div><div class="segment-titles"><h3>EL CORAZÓN DEL JUEGO</h3><div class="duration">25 – 35 MIN</div></div></div>
+<div class="prologue"><span class="p-tag">▸ PRÓLOGO — LA HISTORIA COMPLETA: VACACIONES EN DINOSAUR LAND</span><h5>Unas vacaciones arruinadas</h5><p>Tras salvar el Reino Champiñón en Super Mario Bros. 3, Mario, Luigi y la Princesa Peach viajan de vacaciones a Dinosaur Land, una tierra prehistórica de islas y volcanes. Mientras los hermanos descansan, Peach desaparece: Bowser la ha secuestrado de nuevo y ha sembrado el caos por todo el archipiélago en <a href="https://es.wikipedia.org/wiki/Super_Mario_World" target="_blank">Super Mario World</a>.</p><p>Explorando, los hermanos encuentran un huevo gigante del que nace Yoshi, un joven dinosaurio que cuenta que sus amigos fueron encerrados en huevos mágicos por los siete Koopalings. Así comienza una alianza histórica: Mario montando a Yoshi por primera vez.</p><h5>Siete mundos, siete castillos</h5><p>El viaje cruza siete regiones: la Isla de Yoshi, las Llanuras Donut, la Cúpula Vainilla, los Puentes Gemelos, el Bosque de la Ilusión, la Isla Chocolate y el tenebroso Valle de Bowser. En cada castillo espera un Koopaling y un huevo por liberar.</p><p>La pluma de la capa transforma a Mario en un planeador imparable; las Casas Fantasma con sus Boos introducen el terror juguetón; y los bloques de interruptores de colores reconfiguran el mundo entero, premiando la exploración.</p><h5>Los secretos del mapa</h5><p>Super Mario World esconde otra capa: salidas secretas que despliegan rutas alternas en el mapa, la legendaria Star Road que conecta rincones del mundo, y el Mundo Especial con los niveles más difíciles del juego — Tubular, Awesome, Outrageous — cuyo final transforma el aspecto de todo Dinosaur Land.</p><p>Con 96 salidas posibles, el cartucho convirtió el mapa mismo en un rompecabezas que las infancias de los noventa tardaron años en agotar.</p><h5>La batalla del valle</h5><p>En el fondo del Valle de Bowser, el Rey Koopa espera a bordo de su Koopa Clown Car. La batalla final es un duelo aéreo por rondas: Mario devuelve a los Mechakoopas contra su amo hasta derribarlo.</p><p>Peach es rescatada, los huevos eclosionan y los Yoshis celebran: las vacaciones por fin pueden empezar. El juego que estrenó al Super Nintendo quedó firmado como uno de los plataformas más perfectos jamás construidos.</p></div>
 <div class="sub"><h4>3.1 DISEÑO Y MECÁNICAS (8-10 min)</h4><ul>
 <li>¿Qué hace único al diseño de SUPER MARIO WORLD respecto a su época y género?</li>
 <li>¿Sus mecánicas centrales envejecieron bien o muestran su edad?</li>

@@ -127,6 +127,12 @@ footer p{font-size:12px;color:var(--dim);}
 /* Nota musical flotante decorativa */
 body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
   background:radial-gradient(ellipse 60% 40% at 80% 20%,rgba(139,108,186,0.04) 0%,transparent 60%);}
+
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
 </style>
 </head>
 <body>
@@ -172,7 +178,13 @@ body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
   <line x1="75" y1="55" x2="75" y2="30" stroke="#8b6cba" stroke-width="1.5" opacity="0.7"/>
 </svg>
 </div>
-<style>@keyframes heroDeco{0%{opacity:0.09;transform:translateY(0) rotate(-2deg);}100%{opacity:0.18;transform:translateY(-6px) rotate(2deg);}}</style>
+<style>@keyframes heroDeco{0%{opacity:0.09;transform:translateY(0) rotate(-2deg);}100%{opacity:0.18;transform:translateY(-6px) rotate(2deg);}}
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
+</style>
 <div class="hero-content">
 <div class="logo-row"><img class="logo-mark" id="lm" alt="CC"><span class="logo-text">COMPASS CATCHUP // <span class="logo-ep">T6 A-SIDE</span></span></div>
 <h1>FINAL FANTASY VI // 1994</h1>
@@ -215,19 +227,19 @@ body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
 <div class="ctx-grid">
 <div class="ctx-card">
 <h4>📻 RADIO MX (1994)</h4>
-<ul class="radio-list"><li>Los Bukis — 'Me Muero de Amor' (Tus Mentiras, 1992–replay 1994)</li><li>Alejandro Fernández — 'Tantita Pena' (Alejandro Fernández, 1992–replay 1994)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/results?search_query=Los+Bukis++++Me+Muero+de+Amor+official+video" target="_blank">Los Bukis — 'Me Muero de Amor' (Tus Mentiras, 1992–replay 1994)</a></li><li><a href="https://www.youtube.com/results?search_query=Alejandro+Fern%C3%A1ndez++++Tantita+Pena+official+video" target="_blank">Alejandro Fernández — 'Tantita Pena' (Alejandro Fernández, 1992–replay 1994)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>🌍 RADIO MUNDIAL (1994)</h4>
-<ul class="radio-list"><li>Ace of Base — 'The Sign' (The Sign, 1994)</li><li>Boyz II Men — 'I'll Make Love to You' (II, 1994)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/results?search_query=Ace+of+Base++++The+Sign+official+video" target="_blank">Ace of Base — 'The Sign' (The Sign, 1994)</a></li><li><a href="https://www.youtube.com/results?search_query=Boyz+II+Men++++I+ll+Make+Love+to+You+official+video" target="_blank">Boyz II Men — 'I'll Make Love to You' (II, 1994)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>📺 TV / CULTURA (1994)</h4>
-<p><em>El Chavo del 8</em> en repetición; Canal 6 Monterrey.</p>
+<p><a href="https://www.youtube.com/results?search_query=El+Chavo+del+8+trailer" target="_blank"><em>El Chavo del 8</em></a> en repetición; Canal 6 Monterrey.</p>
 </div>
 <div class="ctx-card">
 <h4>EN MONTERREY (CIUDAD DE LALO)</h4>
-<ul class="ctx-city"><li>1994: Monterrey consolida su polo industrial del norte.</li><li>Extensión de la Línea 1 del Metrorrey.</li><li>Primeras tiendas Blockbuster y Game Crazy en Garza García.</li></ul>
+<ul class="ctx-city"><li><a href="https://es.wikipedia.org/wiki/Monterrey" target="_blank">1994: Monterrey consolida su polo industrial del norte.</a></li><li><a href="https://es.wikipedia.org/wiki/Metrorrey" target="_blank">Se inauguraba la Línea 2 del Metrorrey (noviembre de 1994).</a></li><li><a href="https://es.wikipedia.org/wiki/Blockbuster" target="_blank">Llegaban las primeras tiendas Blockbuster a San Pedro Garza García.</a></li></ul>
 </div>
 </div>
 <div class="sub"><h4>PREGUNTA ANCLA (SE RETOMA EN CIERRE)</h4><ul><li><em>"¿Puede un JRPG de los 90 ser considerado arte, y si es así, ¿qué lo hace diferente del resto?"</em></li></ul></div>
@@ -245,6 +257,7 @@ body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
 
 <section class="segment" id="s3">
 <div class="segment-head"><div class="segment-num">03</div><div class="segment-titles"><h3>EL CORAZÓN DEL JUEGO</h3><div class="duration">25 – 35 MIN</div></div></div>
+<div class="prologue"><span class="p-tag">▸ PRÓLOGO — LA HISTORIA COMPLETA: LA GUERRA DE LA MAGIA</span><h5>El mundo del equilibrio</h5><p>Mil años después de la Guerra de los Magi, la magia es leyenda y el mundo funciona con vapor y maquinaria. El Imperio Gestahliano ha descubierto cómo extraerla por la fuerza de los Espers, seres mágicos ocultos en otra dimensión, e infunde ese poder en soldados y máquinas. En <a href="https://es.wikipedia.org/wiki/Final_Fantasy_VI" target="_blank">Final Fantasy VI</a>, la historia arranca con una joven esclavizada por una diadema de control: Terra Branford, mitad humana, mitad Esper.</p><p>Liberada en las minas de Narshe, Terra se une a los Returners, la resistencia contra el Imperio: el ladrón — perdón, &lsquo;cazatesoros&rsquo; — Locke, el rey ingeniero Edgar, su hermano monje Sabin, la generala desertora Celes y una docena más de personajes inolvidables.</p><h5>La ópera y la puerta de los Espers</h5><p>La campaña contra el Imperio deja escenas grabadas a fuego: la ópera de María y Draco — Celes cantando mientras Setzer planea el secuestro equivocado —, el tren fantasma, la marcha de los Moogles y el asalto al continente imperial.</p><p>Cuando la puerta al mundo de los Espers se abre, la tragedia se acelera: en la aldea de Thamasa, el general bufón Kefka Palazzo traiciona toda tregua, asesina a los Espers para convertirlos en Magicita y elimina al noble General Leo.</p><h5>El fin del mundo (a mitad del juego)</h5><p>En el Continente Flotante, Kefka desplaza las estatuas de la Tríada de la Guerra, desequilibra la fuente misma de la magia y — en el giro más audaz del RPG de los noventa — destruye el mundo. No es el final: es la mitad del juego.</p><p>Celes despierta un año después en una isla desolada, en el Mundo de la Ruina. El segundo acto es una búsqueda de esperanza: reunir a los amigos dispersos a bordo del Falcon, cada reencuentro una historia de duelo y redención — el luto de Cyan, el salto de fe de Celes, Shadow y su pasado.</p><h5>La torre del dios demente</h5><p>Kefka, ahora deidad de la destrucción, gobierna desde una torre de escombros juzgando al mundo con su &lsquo;Luz del Juicio&rsquo;. El asalto final en tres equipos culmina frente a un dios nihilista que pregunta por qué la gente insiste en vivir sabiendo que todo termina.</p><p>La respuesta del grupo — los pequeños motivos de cada quien — precede a la batalla contra el Kefka angélico al ritmo de &lsquo;Dancing Mad&rsquo;. Con su caída, la magia desaparece del mundo para siempre; Terra, aferrada a su mitad humana, sobrevive para verlo renacer.</p></div>
 <div class="sub"><h4>3.1 DISEÑO Y MECÁNICAS (8-10 min)</h4><ul>
 <li>¿Qué hace único al diseño de FINAL FANTASY VI respecto a su época y género?</li>
 <li>¿Sus mecánicas centrales envejecieron bien o muestran su edad?</li>

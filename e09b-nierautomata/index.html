@@ -142,6 +142,12 @@ footer p{font-size:12px;color:var(--dim);}
 .segment::before{content:'∅';color:rgba(226,232,240,0.18);position:absolute;left:-24px;top:2px;font-size:17px;}
 .segment{position:relative;}
 .source-card:hover{border-color:rgba(100,116,139,0.5);box-shadow:0 0 18px rgba(100,116,139,0.12);}
+
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
 </style>
 </head>
 <body>
@@ -183,7 +189,13 @@ footer p{font-size:12px;color:var(--dim);}
   <line x1="72" y1="42" x2="78" y2="48" stroke="#e2e8f0" stroke-width="1.5" opacity="0.5"/>
 </svg>
 </div>
-<style>@keyframes heroDeco{0%{opacity:0.09;transform:translateY(0);}100%{opacity:0.18;transform:translateY(-7px);}}</style>
+<style>@keyframes heroDeco{0%{opacity:0.09;transform:translateY(0);}100%{opacity:0.18;transform:translateY(-7px);}}
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
+</style>
 <div class="hero-glow"></div>
 <div class="hero-content">
 <div class="logo-row"><img class="logo-mark" id="lm" alt="CC"><span class="logo-text">COMPASS CATCHUP // <span class="logo-ep">T6 B-SIDE</span></span></div>
@@ -227,19 +239,19 @@ footer p{font-size:12px;color:var(--dim);}
 <div class="ctx-grid">
 <div class="ctx-card">
 <h4>📻 RADIO MX (2017)</h4>
-<ul class="radio-list"><li>Bad Bunny — 'Soy Peor' (sencillo viral, 2017)</li><li>J Balvin — 'Mi Gente' ft. Willy William (Vibras, 2017)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/results?search_query=Bad+Bunny++++Soy+Peor+official+video" target="_blank">Bad Bunny — 'Soy Peor' (sencillo viral, 2017)</a></li><li><a href="https://www.youtube.com/watch?v=wnJ6LuUFpMo" target="_blank">J Balvin — 'Mi Gente' ft. Willy William (Vibras, 2017)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>🌍 RADIO MUNDIAL (2017)</h4>
-<ul class="radio-list"><li>Ed Sheeran — 'Shape of You' (÷ Divide, 2017)</li><li>Kendrick Lamar — 'HUMBLE.' (DAMN., 2017)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/watch?v=JGwWNGJdvx8" target="_blank">Ed Sheeran — 'Shape of You' (÷ Divide, 2017)</a></li><li><a href="https://www.youtube.com/watch?v=tvTRZJ-4EyI" target="_blank">Kendrick Lamar — 'HUMBLE.' (DAMN., 2017)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>📺 TV / CULTURA (2017)</h4>
-<p>Netflix con <em>Dark</em> y <em>Black Mirror</em>; primer año del streaming dominante.</p>
+<p>Netflix con <a href="https://www.youtube.com/results?search_query=Dark+trailer" target="_blank"><em>Dark</em></a> y <a href="https://www.youtube.com/results?search_query=Black+Mirror+trailer" target="_blank"><em>Black Mirror</em></a>; primer año del streaming dominante.</p>
 </div>
 <div class="ctx-card">
 <h4>EN CULIACÁN (CIUDAD DE ROBERTO)</h4>
-<ul class="ctx-city"><li>2017: Culiacán inaugura el nuevo Museo de Arte de Sinaloa (MAS).</li><li>NieR: Automata se agotó en GamePlanet Culiacán en su lanzamiento.</li><li>Auge de Discord y Telegram para gaming en Sinaloa.</li></ul>
+<ul class="ctx-city"><li><a href="https://es.wikipedia.org/wiki/Museo_de_Arte_de_Sinaloa" target="_blank">El MASIN (Museo de Arte de Sinaloa) consolidaba la escena cultural del centro histórico.</a></li><li><a href="https://es.wikipedia.org/wiki/NieR:_Automata" target="_blank">NieR: Automata se convirtió en fenómeno de culto entre la comunidad gamer sinaloense.</a></li><li><a href="https://es.wikipedia.org/wiki/Discord" target="_blank">Auge de Discord y Telegram para gaming en Sinaloa.</a></li></ul>
 </div>
 </div>
 <div class="sub"><h4>PREGUNTA ANCLA (SE RETOMA EN CIERRE)</h4><ul><li><em>"¿Puede un videojuego sobre robots que imitan a los humanos ser más profundamente humano que la mayoría de la literatura contemporánea?"</em></li></ul></div>
@@ -257,6 +269,7 @@ footer p{font-size:12px;color:var(--dim);}
 
 <section class="segment" id="s3">
 <div class="segment-head"><div class="segment-num">03</div><div class="segment-titles"><h3>EL CORAZÓN DEL JUEGO</h3><div class="duration">25 – 35 MIN</div></div></div>
+<div class="prologue"><span class="p-tag">▸ PRÓLOGO — LA HISTORIA COMPLETA: LA MENTIRA DE LA HUMANIDAD</span><h5>La guerra por poder</h5><p>Año 11945. La Tierra fue invadida hace milenios por máquinas alienígenas y la humanidad, dicen, se refugió en la Luna. Desde la estación orbital Bunker, la unidad de élite YoRHa envía androides a recuperar el planeta. &lsquo;Gloria a la humanidad&rsquo; es su juramento. En <a href="https://es.wikipedia.org/wiki/NieR:Automata" target="_blank">NieR: Automata</a>, la androide de combate 2B y el explorador 9S descienden a un mundo de ruinas devoradas por la vegetación.</p><p>Pronto lo imposible: las máquinas enemigas imitan la vida — juegan, rezan, forman familias, fundan un reino en el bosque, y dos de ellas nacen con forma humana: Adam y Eve.</p><h5>Dos rutas, una verdad</h5><p>La primera mitad se vive dos veces: la Ruta A con 2B y la Ruta B con 9S, cuya capacidad de hackeo destapa lo que nadie debía leer. La aldea pacifista de Pascal, la cantante Simone consumida por el deseo de ser bella, el culto religioso que se suicida en masa: cada historia de máquina es un espejo incómodo.</p><p>La verdad central lo pulveriza todo: la humanidad está extinta desde hace miles de años. El servidor lunar solo transmite datos vacíos. YoRHa existe para sostener la mentira — un dios fabricado para que los androides tengan por qué pelear — y está diseñada para ser destruida cíclicamente.</p><h5>El colapso</h5><p>Las rutas C y D queman el tablero: un virus lógico corrompe a YoRHa entera, el Bunker cae, y 2B — cuyo verdadero designio, 2E, era ejecutar a 9S cada vez que descubriera demasiado — muere infectada, legando su espada a la desertora A2.</p><p>El duelo entre A2 y un 9S consumido por el duelo y la locura, en la torre que emerge del planeta, ofrece dos finales espejo: la lanza y el sacrificio. Ninguno consuela. Y entonces aparece la pregunta en pantalla: ¿rendirse?</p><h5>El Final E</h5><p>El verdadero cierre pertenece a los Pods, las IA de apoyo que se niegan a ejecutar el borrado: &lsquo;el futuro no está escrito&rsquo;. Sigue la secuencia más célebre del juego — los créditos convertidos en shooter imposible, donde cada continuación llega gracias al sacrificio real de partidas guardadas de otros jugadores del mundo.</p><p>Al aceptar ayudar a un desconocido, el jugador ofrenda su propio progreso. Yoko Taro convierte un menú en un acto de fe: la esperanza como mecánica. 2B, 9S y A2 despiertan de nuevo, sin guion, con el futuro por decidir.</p></div>
 <div class="sub"><h4>3.1 DISEÑO Y MECÁNICAS (8-10 min)</h4><ul>
 <li>¿Qué hace único al diseño de NIER: AUTOMATA respecto a su época y género?</li>
 <li>¿Sus mecánicas centrales envejecieron bien o muestran su edad?</li>
@@ -330,7 +343,7 @@ footer p{font-size:12px;color:var(--dim);}
 <span class="kind">WALKTHROUGH SIN COMENTARIOS</span>
 <div class="title">NieR: Automata (PS4/PC) — Full Longplay Ending E No Commentary</div>
 <p>Recorrido completo incluyendo todos los finales (A, B, C/D y E) sin comentarios. El Ending E es fundamental.</p>
-<p><a href="https://www.youtube.com/results?search_query=nier+automata+full+longplay+ending+e+no+commentary" target="_blank">https://www.youtube.com/results?search_query=nier+automata+full+longplay+ending+e+no+commentary</a></p>
+<p><a href="https://www.youtube.com/watch?v=plD3KiWobNQ" target="_blank">https://www.youtube.com/watch?v=plD3KiWobNQ</a></p>
 </div></div>
 <div class="source-card"><span class="icon">🎙️</span><div class="body">
 <span class="kind">ENTREVISTA / FUENTE CON LOS DESARROLLADORES</span>

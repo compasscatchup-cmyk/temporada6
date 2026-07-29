@@ -145,6 +145,12 @@ footer p{font-size:12px;color:var(--dim);}
 .source-card:hover{border-color:rgba(193,18,31,0.6);box-shadow:0 0 24px rgba(193,18,31,0.15);}
 body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
   background:radial-gradient(ellipse 80% 30% at 50% 100%,rgba(193,18,31,0.06) 0%,transparent 60%);}
+
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
 </style>
 </head>
 <body>
@@ -191,7 +197,13 @@ body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
   <rect x="58" y="66" width="6" height="10" rx="1" fill="rgba(193,18,31,0.5)"/>
 </svg>
 </div>
-<style>@keyframes heroDeco{0%{opacity:0.09;transform:scale(0.96);}100%{opacity:0.18;transform:scale(1.04);}}</style>
+<style>@keyframes heroDeco{0%{opacity:0.09;transform:scale(0.96);}100%{opacity:0.18;transform:scale(1.04);}}
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
+</style>
 <div class="hero-glow"></div>
 <div class="hero-content">
 <div class="logo-row"><img class="logo-mark" id="lm" alt="CC"><span class="logo-text">COMPASS CATCHUP // <span class="logo-ep">T6 B-SIDE</span></span></div>
@@ -235,19 +247,19 @@ body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
 <div class="ctx-grid">
 <div class="ctx-card">
 <h4>📻 RADIO MX (1993)</h4>
-<ul class="radio-list"><li>Los Bukis — 'Como una Flor' (Besos de Hiel, 1993)</li><li>Bronco — 'Adoro' (Adoro, 1993)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/results?search_query=Los+Bukis++++Como+una+Flor+official+video" target="_blank">Los Bukis — 'Como una Flor' (Besos de Hiel, 1993)</a></li><li><a href="https://www.youtube.com/results?search_query=Bronco++++Adoro+official+video" target="_blank">Bronco — 'Adoro' (Adoro, 1993)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>🌍 RADIO MUNDIAL (1993)</h4>
-<ul class="radio-list"><li>Whitney Houston — 'I Will Always Love You' (The Bodyguard OST, 1992–replay 1993)</li><li>Meat Loaf — 'I'd Do Anything for Love' (Bat Out of Hell II, 1993)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/watch?v=3JWTaaS7LdU" target="_blank">Whitney Houston — 'I Will Always Love You' (The Bodyguard OST, 1992–replay 1993)</a></li><li><a href="https://www.youtube.com/watch?v=9X_ViIPA-Gc" target="_blank">Meat Loaf — 'I'd Do Anything for Love' (Bat Out of Hell II, 1993)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>📺 TV / CULTURA (1993)</h4>
-<p>Canal 5 con <em>Chapolin Colorado</em>; boom de telenovelas Televisa de las 8.</p>
+<p>Canal 5 con <a href="https://www.youtube.com/results?search_query=Chapolin+Colorado+trailer" target="_blank"><em>Chapolin Colorado</em></a>; boom de telenovelas Televisa de las 8.</p>
 </div>
 <div class="ctx-card">
 <h4>EN GUAMÚCHIL (CIUDAD DE SAMUEL)</h4>
-<ul class="ctx-city"><li>1993: Guamúchil celebra su feria anual de invierno.</li><li>Primeras computadoras 486 llegando a negocios locales.</li><li>Auge de arcades y rentadoras de videojuegos.</li></ul>
+<ul class="ctx-city"><li><a href="https://es.wikipedia.org/wiki/Guam%C3%BAchil" target="_blank">1993: Guamúchil celebra su feria anual de invierno.</a></li><li><a href="https://es.wikipedia.org/wiki/Intel_80486" target="_blank">Primeras computadoras 486 llegando a negocios locales.</a></li><li><a href="https://es.wikipedia.org/wiki/Videoclub" target="_blank">Auge de arcades y rentadoras de videojuegos.</a></li></ul>
 </div>
 </div>
 <div class="sub"><h4>PREGUNTA ANCLA (SE RETOMA EN CIERRE)</h4><ul><li><em>"¿Puede un videojuego ser acusado de corromper a la sociedad y al mismo tiempo ser la obra más influyente de su generación?"</em></li></ul></div>
@@ -265,6 +277,7 @@ body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
 
 <section class="segment" id="s3">
 <div class="segment-head"><div class="segment-num">03</div><div class="segment-titles"><h3>EL CORAZÓN DEL JUEGO</h3><div class="duration">25 – 35 MIN</div></div></div>
+<div class="prologue"><span class="p-tag">▸ PRÓLOGO — LA HISTORIA COMPLETA: LAS PUERTAS DEL INFIERNO</span><h5>Un marine castigado</h5><p>El protagonista de <a href="https://es.wikipedia.org/wiki/Doom_(videojuego_de_1993)" target="_blank">DOOM</a> — el Doomguy, sin nombre y sin diálogo — es un marine espacial castigado por desobedecer la orden de disparar contra civiles. Su destino: Marte, el rincón más aburrido del sistema solar, custodiando instalaciones de la corporación UAC.</p><p>La UAC experimenta con teletransportación entre las lunas Fobos y Deimos. Los ensayos empiezan a salir mal: voluntarios que regresan enloquecidos, transmisiones cortadas, y de pronto el silencio total. Deimos desaparece del cielo. Algo cruzó desde el otro lado: los portales conectaban con el Infierno.</p><h5>Hasta las rodillas entre los muertos</h5><p>Enviado a investigar, el escuadrón del marine es masacrado en minutos. Solo, con una pistola y una furia bíblica, comienza el descenso por las instalaciones de Fobos: el episodio &lsquo;Knee-Deep in the Dead&rsquo;, del Hangar a la sala de los Barones del Infierno, entre zombis soldados, Imps y las esferas flotantes Cacodemon.</p><p>Escopeta, sierra eléctrica, lanzacohetes y el arma definitiva escondida: la BFG 9000. El arsenal de DOOM se volvió gramática universal del género que inventó — el &lsquo;clon de Doom&rsquo;, antes de llamarse FPS.</p><h5>Las costas del Infierno</h5><p>El segundo episodio revela el destino de Deimos: la luna entera flota sobre el Infierno, sus laboratorios fusionados con carne y arquitectura demoníaca. Al final espera el Cyberdemon, torre de músculo y metal con lanzacohetes por brazo — el jefe que definió la palabra &lsquo;imponente&rsquo; en los noventa.</p><p>Desde el borde de Deimos, el marine desciende a rappel directamente al Inferno: el tercer episodio, en el corazón del territorio enemigo, hasta aplastar a la Spider Mastermind, el cerebro de la invasión.</p><h5>El regreso a casa</h5><p>Con la araña maestra destruida, un portal lleva de vuelta a casa. La última pantalla lo dice todo: la Tierra en llamas, una ciudad ardiendo bajo el cielo, el sonido de un conejo... La invasión ya llegó al planeta — el anzuelo directo hacia DOOM II: Hell on Earth.</p><p>En 1993, dos disquetes compartidos de mano en mano bastaron para cambiar los videojuegos para siempre: deathmatch, WADs, mods y una comunidad que hoy sigue corriendo DOOM hasta en refrigeradores.</p></div>
 <div class="sub"><h4>3.1 DISEÑO Y MECÁNICAS (8-10 min)</h4><ul>
 <li>¿Qué hace único al diseño de DOOM respecto a su época y género?</li>
 <li>¿Sus mecánicas centrales envejecieron bien o muestran su edad?</li>
@@ -338,7 +351,7 @@ body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
 <span class="kind">WALKTHROUGH SIN COMENTARIOS</span>
 <div class="title">DOOM (1993) PC — Full Longplay No Commentary</div>
 <p>Recorrido completo del DOOM original en PC sin comentarios.</p>
-<p><a href="https://www.youtube.com/results?search_query=doom+1993+pc+longplay+no+commentary+full+game" target="_blank">https://www.youtube.com/results?search_query=doom+1993+pc+longplay+no+commentary+full+game</a></p>
+<p><a href="https://www.youtube.com/watch?v=OiwsGy70OII" target="_blank">https://www.youtube.com/watch?v=OiwsGy70OII</a></p>
 </div></div>
 <div class="source-card"><span class="icon">🎙️</span><div class="body">
 <span class="kind">ENTREVISTA / FUENTE CON LOS DESARROLLADORES</span>

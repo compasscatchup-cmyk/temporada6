@@ -163,6 +163,12 @@ body::before{
 .segment::before{content:'▸';color:rgba(74,158,255,0.2);position:absolute;left:-24px;top:4px;font-size:16px;}
 .segment{position:relative;}
 .source-card:hover{border-color:rgba(74,158,255,0.5);box-shadow:0 0 20px rgba(74,158,255,0.12);}
+
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
 </style>
 </head>
 <body>
@@ -201,7 +207,13 @@ body::before{
   <rect x="9" y="30" width="4" height="29" fill="#4a9eff" opacity="0.4"/>
 </svg>
 </div>
-<style>@keyframes heroDeco{0%{opacity:0.10;transform:translateY(0);}100%{opacity:0.22;transform:translateY(-8px);}}</style>
+<style>@keyframes heroDeco{0%{opacity:0.10;transform:translateY(0);}100%{opacity:0.22;transform:translateY(-8px);}}
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
+</style>
 <div class="hero-overlay"></div>
 <div class="hero-glow"></div>
 <div class="hero-glow"></div>
@@ -247,19 +259,19 @@ body::before{
 <div class="ctx-grid">
 <div class="ctx-card">
 <h4>📻 RADIO MX (1989)</h4>
-<ul class="radio-list"><li>Luis Miguel — 'La Incondicional' (Sencillo, 1989)</li><li>Timbiriche — 'Quiero Más' (Bello Embustero, 1988–replay 1989)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/watch?v=uMWN5yHUv4o" target="_blank">Luis Miguel — 'La Incondicional' (Sencillo, 1989)</a></li><li><a href="https://www.youtube.com/results?search_query=Timbiriche++++Quiero+M%C3%A1s+official+video" target="_blank">Timbiriche — 'Quiero Más' (Bello Embustero, 1988–replay 1989)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>🌍 RADIO MUNDIAL (1989)</h4>
-<ul class="radio-list"><li>Madonna — 'Like a Prayer' (Like a Prayer, 1989)</li><li>New Kids on the Block — 'Hangin' Tough' (Hangin' Tough, 1988–replay 1989)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/watch?v=79fzeNUqQbQ" target="_blank">Madonna — 'Like a Prayer' (Like a Prayer, 1989)</a></li><li><a href="https://www.youtube.com/results?search_query=New+Kids+on+the+Block++++Hangin++Tough+official+video" target="_blank">New Kids on the Block — 'Hangin' Tough' (Hangin' Tough, 1988–replay 1989)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>📺 TV / CULTURA (1989)</h4>
-<p>Canal 5 con <em>Odisea Burbujas</em>; boom de las rentadoras de VHS en el DF.</p>
+<p>Canal 5 con <a href="https://www.youtube.com/results?search_query=Odisea+Burbujas+trailer" target="_blank"><em>Odisea Burbujas</em></a>; boom de las rentadoras de VHS en el DF.</p>
 </div>
 <div class="ctx-card">
 <h4>EN EL DF (CIUDAD DE CHARLIE)</h4>
-<ul class="ctx-city"><li>1989: Detención de 'La Quina' en enero; trasladado al Reclusorio Oriente.</li><li>Incendio del Palacio Legislativo de San Lázaro en mayo.</li><li>Arranque del programa 'Hoy No Circula' en noviembre en la ZMVM.</li></ul>
+<ul class="ctx-city"><li><a href="https://es.wikipedia.org/wiki/Joaqu%C3%ADn_Hern%C3%A1ndez_Galicia" target="_blank">1989: Detención de 'La Quina' en enero; trasladado al Reclusorio Oriente.</a></li><li><a href="https://es.wikipedia.org/wiki/Palacio_Legislativo_de_San_L%C3%A1zaro" target="_blank">Incendio del Palacio Legislativo de San Lázaro en mayo.</a></li><li><a href="https://es.wikipedia.org/wiki/Hoy_No_Circula" target="_blank">Arranque del programa 'Hoy No Circula' en noviembre en la ZMVM.</a></li></ul>
 </div>
 </div>
 <div class="sub"><h4>PREGUNTA ANCLA (SE RETOMA EN CIERRE)</h4><ul><li><em>"¿Por qué Mega Man 2 sigue siendo, para muchos, el juego más importante de su infancia aunque llegara décadas después de su lanzamiento?"</em></li></ul></div>
@@ -277,6 +289,7 @@ body::before{
 
 <section class="segment" id="s3">
 <div class="segment-head"><div class="segment-num">03</div><div class="segment-titles"><h3>EL CORAZÓN DEL JUEGO</h3><div class="duration">25 – 35 MIN</div></div></div>
+<div class="prologue"><span class="p-tag">▸ PRÓLOGO — LA HISTORIA COMPLETA: LA REBELIÓN DEL DR. WILY</span><h5>El regreso del villano</h5><p>En el año 200X, un año después de su primera derrota, el Dr. Wily reaparece para vengarse del Dr. Light y de <a href="https://es.wikipedia.org/wiki/Mega_Man_2" target="_blank">Mega Man</a>. Esta vez no roba robots ajenos: construye su propio ejército de ocho Robot Masters diseñados para el combate — Metal Man, Air Man, Bubble Man, Quick Man, Crash Man, Flash Man, Heat Man y Wood Man — y desafía abiertamente al mundo desde su nueva fortaleza.</p><p>Mega Man, el robot doméstico convertido en héroe, vuelve a tomar el Mega Buster. Su misión: derrotar uno por uno a los ocho maestros robóticos, absorber sus armas especiales y usarlas estratégicamente contra los demás, en el sistema de debilidades que definió a la saga.</p><h5>La campaña contra los ocho</h5><p>Cada Robot Master domina un escenario temático: la sierra industrial de Metal Man, las alturas ventosas de Air Man, las profundidades submarinas de Bubble Man, los láseres mortales de la etapa de Quick Man — pesadilla de toda una generación — o los bloques desvanecientes de Heat Man. El orden es libre, pero la comunidad forjó rutas clásicas: empezar por Metal Man para ganar el Metal Blade, una de las armas más rotas de la historia de los videojuegos.</p><p>Con los ocho derrotados y los tres ítems de transporte del Dr. Light (1, 2 y 3), el camino a la fortaleza del Dr. Wily queda abierto.</p><h5>El Castillo de Wily</h5><p>La fortaleza es una carrera de resistencia en seis actos: el Mecha Dragon que persigue a Mega Man sobre bloques suspendidos en el vacío, el Guts Tank, la infame sala de los cañones Boobeam — imposible sin Crash Bombs administradas con precisión — y la Wily Machine 2.</p><p>En la caverna final, Wily se revela como un holograma alienígena en un último engaño. La criatura solo es vulnerable al Bubble Lead, el arma más humilde del arsenal: el jefe final de uno de los juegos más queridos de NES cae ante una burbuja.</p><h5>Desenlace</h5><p>Desenmascarado y derrotado, Wily suplica perdón una vez más. Mega Man abandona la fortaleza y camina de regreso a casa mientras las estaciones cambian a su alrededor — primavera, verano, otoño, invierno — en una de las secuencias finales más recordadas de la era de 8 bits, cerrando con su casco abandonado sobre el pasto.</p></div>
 <div class="sub"><h4>3.1 DISEÑO Y MECÁNICAS (8-10 min)</h4><ul>
 <li>¿Qué hace único al diseño de MEGA MAN 2 respecto a su época y género?</li>
 <li>¿Sus mecánicas centrales envejecieron bien o muestran su edad?</li>

@@ -138,6 +138,12 @@ footer p{font-size:12px;color:var(--dim);}
 .segment::before{content:'N7';color:rgba(37,99,235,0.20);position:absolute;left:-28px;top:2px;font-size:11px;font-weight:900;font-family:monospace;}
 .segment{position:relative;}
 .source-card:hover{border-color:rgba(37,99,235,0.5);box-shadow:0 0 20px rgba(37,99,235,0.12);}
+
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
 </style>
 </head>
 <body>
@@ -177,7 +183,13 @@ footer p{font-size:12px;color:var(--dim);}
   <ellipse cx="50" cy="65" rx="6" ry="4" fill="#2563eb" opacity="0.7"/>
 </svg>
 </div>
-<style>@keyframes heroDeco{0%{opacity:0.08;transform:translateY(0) rotate(-2deg);}100%{opacity:0.17;transform:translateY(-8px) rotate(2deg);}}</style>
+<style>@keyframes heroDeco{0%{opacity:0.08;transform:translateY(0) rotate(-2deg);}100%{opacity:0.17;transform:translateY(-8px) rotate(2deg);}}
+.prologue{margin:6px 0 30px;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 8px 8px 0;}
+.prologue .p-tag{font-family:var(--px);font-size:9px;letter-spacing:2px;color:var(--acc);display:block;margin-bottom:14px;}
+.prologue h5{font-size:15px;color:#fff;margin:18px 0 8px;font-weight:700;}
+.prologue h5:first-of-type{margin-top:4px;}
+.prologue p{color:var(--dim);font-size:14px;line-height:1.75;margin:0 0 10px;}
+</style>
 <div class="hero-glow"></div>
 <div class="hero-content">
 <div class="logo-row"><img class="logo-mark" id="lm" alt="CC"><span class="logo-text">COMPASS CATCHUP // <span class="logo-ep">T6 B-SIDE</span></span></div>
@@ -221,11 +233,11 @@ footer p{font-size:12px;color:var(--dim);}
 <div class="ctx-grid">
 <div class="ctx-card">
 <h4>📻 RADIO MX (2010)</h4>
-<ul class="radio-list"><li>Banda MS — 'Que Bonito Amor' (De Sinaloa para el Mundo, 2009–replay 2010)</li><li>Paquita la del Barrio — 'Rata de dos Patas' (éxito eterno, replay 2010)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/results?search_query=Banda+MS++++Que+Bonito+Amor+official+video" target="_blank">Banda MS — 'Que Bonito Amor' (De Sinaloa para el Mundo, 2009–replay 2010)</a></li><li><a href="https://www.youtube.com/watch?v=9obV__MFMaY" target="_blank">Paquita la del Barrio — 'Rata de dos Patas' (éxito eterno, replay 2010)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>🌍 RADIO MUNDIAL (2010)</h4>
-<ul class="radio-list"><li>Katy Perry — 'California Gurls' ft. Snoop Dogg (Teenage Dream, 2010)</li><li>Eminem — 'Love the Way You Lie' ft. Rihanna (Recovery, 2010)</li></ul>
+<ul class="radio-list"><li><a href="https://www.youtube.com/watch?v=F57P9C4SAW4" target="_blank">Katy Perry — 'California Gurls' ft. Snoop Dogg (Teenage Dream, 2010)</a></li><li><a href="https://www.youtube.com/watch?v=uelHwf8o7_U" target="_blank">Eminem — 'Love the Way You Lie' ft. Rihanna (Recovery, 2010)</a></li></ul>
 </div>
 <div class="ctx-card">
 <h4>📺 TV / CULTURA (2010)</h4>
@@ -233,7 +245,7 @@ footer p{font-size:12px;color:var(--dim);}
 </div>
 <div class="ctx-card">
 <h4>EN MONTERREY (CIUDAD DE CELSO)</h4>
-<ul class="ctx-city"><li>2010: Parque Fundidora remozado; Monterrey en su auge cultural.</li><li>PlayStation 3 en su tercer año fuerte; boom del online con PSN.</li><li>Primer Comic-Con Monterrey en CINTERMEX.</li></ul>
+<ul class="ctx-city"><li><a href="https://es.wikipedia.org/wiki/Parque_Fundidora" target="_blank">2010: Parque Fundidora remozado; Monterrey en su auge cultural.</a></li><li><a href="https://es.wikipedia.org/wiki/PlayStation_Network" target="_blank">PlayStation 3 en su tercer año fuerte; boom del online con PSN.</a></li><li><a href="https://es.wikipedia.org/wiki/Cintermex" target="_blank">La cultura geek regiomontana crecía con convenciones en Cintermex.</a></li></ul>
 </div>
 </div>
 <div class="sub"><h4>PREGUNTA ANCLA (SE RETOMA EN CIERRE)</h4><ul><li><em>"¿Es Mass Effect 2 el mejor RPG de la generación, o simplemente el mejor juego de reclutamiento de personajes jamás diseñado?"</em></li></ul></div>
@@ -251,6 +263,7 @@ footer p{font-size:12px;color:var(--dim);}
 
 <section class="segment" id="s3">
 <div class="segment-head"><div class="segment-num">03</div><div class="segment-titles"><h3>EL CORAZÓN DEL JUEGO</h3><div class="duration">25 – 35 MIN</div></div></div>
+<div class="prologue"><span class="p-tag">▸ PRÓLOGO — LA HISTORIA COMPLETA: LA MISIÓN SUICIDA</span><h5>Morir es solo el principio</h5><p>La secuela más audaz de BioWare abre matando a su protagonista: la Normandy es emboscada por una nave desconocida y el Comandante Shepard muere asfixiado en el vacío. En <a href="https://es.wikipedia.org/wiki/Mass_Effect_2" target="_blank">Mass Effect 2</a>, dos años y cuatro mil millones de créditos después, el Proyecto Lázaro de Cerberus lo trae de vuelta.</p><p>El Hombre Ilusorio, líder de la organización pro-humana, tiene un motivo: colonias humanas enteras están desapareciendo sin dejar rastro. Los responsables son los Recolectores, una especie insectoide al servicio de los Segadores que opera desde el otro lado del Relé Omega-4 — un portal del que ninguna nave ha regresado.</p><h5>El equipo de los doce</h5><p>Si la misión es suicida, el equipo debe ser legendario. El corazón del juego es el reclutamiento: el científico salariano Mordin Solus y su genofagia a cuestas, Garrus convertido en el vigilante Arcángel, la convicta Jack, el krogan de tanque Grunt, la justiciera Samara, el asesino moribundo Thane, Tali, Legion y más.</p><p>Cada misión de lealtad salda las cuentas pendientes de un personaje — y cada una decide, silenciosamente, quién sobrevivirá al final. Pocas veces un RPG ha hecho que preparar una misión importe tanto como ejecutarla.</p><h5>La base más allá del relé</h5><p>Tras el ataque a Horizon y la instalación del IFF extraído de un Segador muerto, el enemigo golpea primero: los Recolectores abordan la Normandy y secuestran a la tripulación completa mientras Shepard está fuera.</p><p>Sin tiempo que perder, la nave cruza el Relé Omega-4. Del otro lado: un cementerio de naves alrededor de la base Recolectora. Comienza la Misión Suicida — especialistas en túneles, líderes de escuadra, escoltas — donde cada decisión de personal se paga con vidas.</p><h5>La larva y la decisión</h5><p>En el núcleo de la base espera el secreto: los colonos secuestrados son procesados para construir un nuevo Segador con forma humana — una larva colosal que Shepard destruye en el duelo final.</p><p>Queda la última decisión: volar la base o entregársela intacta a Cerberus. Con la tripulación (completa o diezmada, según cada partida) de regreso, el epílogo muestra el vacío intergaláctico despertando: miles de Segadores en camino. La guerra apenas comienza.</p></div>
 <div class="sub"><h4>3.1 DISEÑO Y MECÁNICAS (8-10 min)</h4><ul>
 <li>¿Qué hace único al diseño de MASS EFFECT 2 respecto a su época y género?</li>
 <li>¿Sus mecánicas centrales envejecieron bien o muestran su edad?</li>
@@ -318,13 +331,13 @@ footer p{font-size:12px;color:var(--dim);}
 <span class="kind">LIBRO · BOSS FIGHT BOOKS</span>
 <div class="title">Star Wars: Knights of the Old Republic — Alex Kane (Boss Fight Books #20)</div>
 <p>KOTOR (2003), también de BioWare, es el antecedente directo del modelo de RPG de conversación y elecciones morales que Mass Effect perfeccionaría.</p>
-<p><a href="https://bossfightbooks.com/products/star-wars-kotor-by-alex-kane" target="_blank">bossfightbooks.com/products/star-wars-kotor-by-alex-kane</a></p>
+<p><a href="https://bossfightbooks.com/products/star-wars-knights-of-the-old-republic-by-alex-kane" target="_blank">bossfightbooks.com/products/star-wars-knights-of-the-old-republic-by-alex-kane</a></p>
 </div></div>
 <div class="source-card"><span class="icon">🎮</span><div class="body">
 <span class="kind">WALKTHROUGH SIN COMENTARIOS</span>
 <div class="title">Mass Effect 2 (PS3/PC) — Full Longplay No Commentary</div>
 <p>Recorrido completo incluyendo todas las misiones de reclutamiento y la misión suicida final.</p>
-<p><a href="https://www.youtube.com/results?search_query=mass+effect+2+longplay+no+commentary+full+game" target="_blank">https://www.youtube.com/results?search_query=mass+effect+2+longplay+no+commentary+full+game</a></p>
+<p><a href="https://www.youtube.com/watch?v=mk9sDuiK3Ys" target="_blank">https://www.youtube.com/watch?v=mk9sDuiK3Ys</a></p>
 </div></div>
 <div class="source-card"><span class="icon">🎙️</span><div class="body">
 <span class="kind">ENTREVISTA / FUENTE CON LOS DESARROLLADORES</span>
